@@ -11,42 +11,42 @@ let g:colors_name = "telin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment gui=NONE guifg=#057238
+hi Comment gui=NONE guifg=#005c01
 
-hi Constant gui=bold guifg=black
-hi String gui=NONE guifg=#053a8c
-hi Character gui=NONE guifg=#053a8c
-hi Number gui=NONE guifg=black
-hi Boolean gui=NONE guifg=black
-hi Float gui=NONE guifg=black
+hi Constant gui=bold guifg=#4d024d
+hi String gui=bold guifg=#2500a8
+hi Character gui=bold guifg=#2500a8
+hi Number gui=NONE guifg=#2500a8
+hi Boolean gui=bold guifg=#2500a8
+hi Float gui=NONE guifg=#2500a8
 
-hi Identifier gui=NONE guifg=black
-hi Function gui=NONE guifg=black
+hi Identifier gui=NONE guifg=#01037a
+hi Function gui=NONE guifg=#01037a
 
-hi Statement gui=NONE guifg=#82054c
+hi Statement gui=bold guifg=#82054c
 " hi Conditional
 " hi Repeat
 " hi Label
-hi Operator gui=NONE guifg=black
+hi Operator gui=NONE guifg=#486882
 " hi Keyword
 " hi Exception
 
-hi PreProc gui=NONE guifg=#070fb2
-" hi Include
+hi PreProc gui=bold guifg=#855000
+hi Include gui=bold guifg=#01037a
 " hi Define
 " hi Macro
 " hi PreCondit
 
-hi Type gui=NONE guifg=#82054c
+hi Type gui=bold guifg=#82054c
 " hi StorageClass gui=NONE guifg=#82054c
 " hi Structure gui=NONE guifg=#82054c
-" hi Typedef gui=NONE guifg=#82054c	
+" hi Typedef gui=NONE guifg=#82054c
 
-hi Special guifg=#540063
+hi Special guifg=#820071
 " hi SpecialChar	
 " hi Tag		
 " hi Delimiter	
-" hi SpecialComment	
+hi SpecialComment gui=NONE guifg=#005c01
 " hi Debug		
 
 " hi Underlined	
@@ -67,8 +67,8 @@ hi Todo gui=NONE guifg=Blue guibg=Yellow
 " hi lCursor
 " hi CursorIM
 " hi CursorColumn
-" hi CursorLine
-" hi Directory
+hi CursorLine gui=NONE guibg=NONE guifg=NONE
+hi Directory gui=NONE guifg=#2500a8
 " hi DiffAdd
 " hi DiffChange
 " hi DiffDelete
@@ -81,8 +81,8 @@ hi Todo gui=NONE guifg=Blue guibg=Yellow
 hi clear SignColumn
 " hi IncSearch
 hi LineNr guifg=#7c7c7c
-" hi CursorLineNr
-" hi MatchParen
+hi CursorLineNr guifg=#82054c
+hi MatchParen guibg=#ffff8a
 " hi ModeMsg
 " hi MoreMsg
 " hi NonText
@@ -107,7 +107,7 @@ hi PmenuSel guifg=black
 " hi TabLineFill
 " hi TabLineSel
 " hi Terminal
-" hi Title
+hi Title guifg=#820071
 hi Visual gui=NONE guibg=#cccccc
 " hi VisualNOS
 " hi WarningMsg
