@@ -1,6 +1,3 @@
-package main
-
-// sample import
 import java.util.date;
 
 @SampleAnnotation
@@ -8,14 +5,19 @@ public class Sample {
 
     private final static String MESSAGE = "hello, telin colorscheme!";
 
-    private final static String JAPANESE_MESSAGE = "こんにちはtelinカラースキーム！";
-
     public static void main(String[] args) {
         String msg = MESSAGE;
-        // ご挨拶
+        // 挨拶の読み出し (comment sample)
         greeting(msg);
 
+        int a = 12;
+        boolean flag = true;
+
         Date d = new Date();
+
+        if (d != null) {
+            return;
+        }
     }
 
     /**
@@ -24,5 +26,6 @@ public class Sample {
      */
     public static void greeting(String msg) {
         System.out.println(msg);
+        return;
     }
 }
