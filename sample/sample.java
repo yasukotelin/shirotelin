@@ -15,6 +15,7 @@ public class Sample {
         int a = 12;
         boolean flag = true;
 
+        // TODO サンプル
         Date d = new Date();
 
         if (d != null) {

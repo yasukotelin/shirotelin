@@ -18,7 +18,7 @@ func main() {
 }
 
 // greeting prints msg
-func greeting(msg) {
+func greeting(msg string) {
 	fmt.Println(msg)
 }
 

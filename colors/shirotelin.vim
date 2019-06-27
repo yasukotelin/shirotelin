@@ -20,8 +20,8 @@ hi Number gui=NONE guifg=#0000C0
 hi Boolean gui=bold guifg=#0000C0
 hi Float gui=NONE guifg=#0000C0
 
-hi Identifier gui=NONE guifg=#02380d
-hi Function gui=NONE guifg=#684205
+hi Identifier gui=NONE guifg=#000082
+hi Function gui=NONE guifg=#000082
 
 hi Statement gui=bold guifg=#7F0055
 hi Conditional gui=bold guifg=#7F0055
@@ -43,15 +43,15 @@ hi Structure gui=bold guifg=#7F0055
 hi Typedef gui=bold guifg=#7F0055
 
 hi Special gui=bold guifg=#9425a8
-hi SpecialChar gui=NONE guifg=NONE
-hi Tag gui=NONE guifg=NONE	
-hi Delimiter gui=NONE guifg=NONE	
-hi SpecialComment gui=bold guifg=#2b5f84
-hi Debug gui=NONE guifg=NONE		
+hi SpecialChar gui=NONE guifg=#9425a8
+hi Tag gui=NONE guifg=#9425a8
+hi Delimiter gui=NONE guifg=#9425a8
+hi SpecialComment gui=NONE guifg=#006300
+hi Debug gui=NONE guifg=#9425a8
 
-hi Underlined gui=NONE guifg=NONE	
+hi Underlined gui=NONE guifg=NONE
 
-hi Ignore gui=NONE guifg=NONE		
+hi Ignore gui=NONE guifg=NONE
 
 hi Error gui=bold guifg=Red guibg=white
 
