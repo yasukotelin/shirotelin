@@ -5,7 +5,7 @@ if exists("syntax_on")
 endif
 hi clear
 
-let g:colors_name = "telin"
+let g:colors_name = "shirotelin"
 
 """"""""""""""""""""""
 " group-name
@@ -31,16 +31,16 @@ hi Operator gui=bold guifg=#7F0055
 hi Keyword gui=bold guifg=#7F0055
 hi Exception gui=bold guifg=#7F0055
 
-hi PreProc gui=bold guifg=#9425a8
+hi PreProc gui=bold guifg=#3e347d
 hi Include gui=bold guifg=#7F0055
-hi Define gui=NONE guifg=yellow
-hi Macro gui=NONE guifg=yellow
-hi PreCondit gui=NONE guifg=yellow
+hi Define gui=NONE guifg=#3e347d
+hi Macro gui=NONE guifg=#3e347d
+hi PreCondit gui=NONE guifg=#3e347d
 
 hi Type gui=bold guifg=#7F0055
 hi StorageClass gui=bold guifg=#7F0055
-hi Structure gui=NONE guifg=NONE
-hi Typedef gui=NONE guifg=NONE
+hi Structure gui=bold guifg=#7F0055
+hi Typedef gui=bold guifg=#7F0055
 
 hi Special gui=bold guifg=#9425a8
 hi SpecialChar gui=NONE guifg=NONE
@@ -67,7 +67,7 @@ hi Todo gui=NONE guifg=Blue guibg=Yellow
 " hi lCursor
 " hi CursorIM
 " hi CursorColumn
-hi CursorLine gui=NONE guibg=NONE guifg=NONE
+hi CursorLine gui=NONE guibg=#edf6ff guifg=NONE
 hi Directory gui=NONE guifg=#0000C0
 " hi DiffAdd
 " hi DiffChange
@@ -80,9 +80,9 @@ hi Directory gui=NONE guifg=#0000C0
 " hi FoldColumn
 hi clear SignColumn
 " hi IncSearch
-hi LineNr guifg=black
+hi LineNr guifg=#545454
 hi CursorLineNr guifg=#7F0055
-hi MatchParen guibg=#ffff8a
+hi MatchParen guibg=#faeecd
 " hi ModeMsg
 " hi MoreMsg
 " hi NonText
@@ -107,7 +107,7 @@ hi PmenuThumb guibg=#C8D6FB
 " hi TabLineFill
 " hi TabLineSel
 " hi Terminal
-hi Title gui=bold guifg=#0000C0
+hi Title gui=bold guifg=black
 hi Visual gui=NONE guibg=#cccccc
 " hi VisualNOS
 " hi WarningMsg
