@@ -13,15 +13,15 @@ let g:colors_name = "shirotelin"
 
 hi Comment gui=NONE guifg=#006300
 
-hi Constant gui=bold guifg=#0000C0
+hi Constant gui=NONE guifg=#0000C0
 hi String gui=NONE guifg=#0000C0
 hi Character gui=NONE guifg=#0000C0
 hi Number gui=NONE guifg=#0000C0
 hi Boolean gui=bold guifg=#0000C0
 hi Float gui=NONE guifg=#0000C0
 
-hi Identifier gui=NONE guifg=#000082
-hi Function gui=NONE guifg=#000082
+hi Identifier gui=NONE guifg=#0000C0
+hi Function gui=NONE guifg=#0000C0
 
 hi Statement gui=bold guifg=#7F0055
 hi Conditional gui=bold guifg=#7F0055
@@ -33,7 +33,7 @@ hi Exception gui=bold guifg=#7F0055
 
 hi PreProc gui=bold guifg=#3e347d
 hi Include gui=bold guifg=#7F0055
-hi Define gui=NONE guifg=#3e347d
+hi Define gui=NONE guifg=#7F0055
 hi Macro gui=NONE guifg=#3e347d
 hi PreCondit gui=NONE guifg=#3e347d
 
@@ -49,9 +49,9 @@ hi Delimiter gui=NONE guifg=#9425a8
 hi SpecialComment gui=NONE guifg=#006300
 hi Debug gui=NONE guifg=#9425a8
 
-hi Underlined gui=NONE guifg=NONE
+hi Underlined gui=underline guifg=#9425a8
 
-hi Ignore gui=NONE guifg=NONE
+" hi Ignore gui=NONE guifg=NONE
 
 hi Error gui=bold guifg=Red guibg=white
 
@@ -107,7 +107,7 @@ hi PmenuThumb guibg=#C8D6FB
 " hi TabLineFill
 " hi TabLineSel
 " hi Terminal
-hi Title gui=bold guifg=black
+hi Title gui=bold guifg=#7F0055
 hi Visual gui=NONE guibg=#cccccc
 " hi VisualNOS
 " hi WarningMsg

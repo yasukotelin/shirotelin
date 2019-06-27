@@ -13,3 +13,5 @@ func main() {
     fmt.Println("sample code")
 }
 ```
+
+[Link sample]("http://localhost:8000/sample")

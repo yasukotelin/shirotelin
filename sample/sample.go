@@ -7,8 +7,14 @@ type Sample struct {
 	body string
 }
 
+// method is sample method
+func (s *Sample) method() {
+	fmt.Printf("sample> %s\n", s.body)
+}
+
 func main() {
-	msg := "hello, telin colorscheme!"
+	var msg string
+	msg = "hello, telin colorscheme!"
 	greeting(msg)
 
 	numbers := []int{1, 2, 3}
