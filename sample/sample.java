@@ -18,8 +18,12 @@ public class Sample {
         // TODO サンプル
         Date d = new Date();
 
-        if (d != null) {
+        if (d != null && a != 11) {
             return;
+        }
+
+        for (int i = 0; i < 100; i++) {
+            System.out.Println(i);
         }
     }
 

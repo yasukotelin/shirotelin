@@ -13,15 +13,15 @@ let g:colors_name = "shirotelin"
 
 hi Comment gui=NONE guifg=#006300
 
-hi Constant gui=NONE guifg=#0000C0
+hi Constant gui=bold guifg=#0000C0
 hi String gui=NONE guifg=#0000C0
 hi Character gui=NONE guifg=#0000C0
 hi Number gui=NONE guifg=#0000C0
 hi Boolean gui=bold guifg=#0000C0
 hi Float gui=NONE guifg=#0000C0
 
-hi Identifier gui=NONE guifg=#0000C0
-hi Function gui=NONE guifg=#0000C0
+hi Identifier gui=bold guifg=#000161
+hi Function gui=bold guifg=#000161
 
 hi Statement gui=bold guifg=#7F0055
 hi Conditional gui=bold guifg=#7F0055
@@ -32,10 +32,10 @@ hi Keyword gui=bold guifg=#7F0055
 hi Exception gui=bold guifg=#7F0055
 
 hi PreProc gui=bold guifg=#3e347d
-hi Include gui=bold guifg=#7F0055
-hi Define gui=NONE guifg=#7F0055
-hi Macro gui=NONE guifg=#3e347d
-hi PreCondit gui=NONE guifg=#3e347d
+hi Include gui=bold guifg=#3e347d
+hi Define gui=bold guifg=#3e347d
+hi Macro gui=bold guifg=#3e347d
+hi PreCondit gui=bold guifg=#3e347d
 
 hi Type gui=bold guifg=#7F0055
 hi StorageClass gui=bold guifg=#7F0055
@@ -43,11 +43,11 @@ hi Structure gui=bold guifg=#7F0055
 hi Typedef gui=bold guifg=#7F0055
 
 hi Special gui=bold guifg=#9425a8
-hi SpecialChar gui=NONE guifg=#9425a8
-hi Tag gui=NONE guifg=#9425a8
-hi Delimiter gui=NONE guifg=#9425a8
+hi SpecialChar gui=bold guifg=#9425a8
+hi Tag gui=bold guifg=#9425a8
+hi Delimiter gui=bold guifg=#9425a8
 hi SpecialComment gui=NONE guifg=#006300
-hi Debug gui=NONE guifg=#9425a8
+hi Debug gui=bold guifg=#9425a8
 
 hi Underlined gui=underline guifg=#9425a8
 
@@ -116,3 +116,17 @@ hi Visual gui=NONE guibg=#cccccc
 " hi Scrollbar
 " hi Menu
 
+""""""""""""""""""""""
+" NERDTree
+""""""""""""""""""""""
+
+" hi NERDTreeDir gui=bold guibg=NONE guifg=#145404
+
+""""""""""""""""""""""
+" TypeScript
+""""""""""""""""""""""
+
+hi typescriptBraces gui=NONE guibg=NONE guifg=black
+hi typescriptLogicSymbols gui=NONE guibg=NONE guifg=black
+
+" hi typescriptStringS gui=NONE guibg=NONE guifg=#145404
