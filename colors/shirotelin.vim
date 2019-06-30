@@ -66,24 +66,24 @@ hi Todo gui=NONE guifg=Blue guibg=Yellow
 " hi Cursor
 " hi lCursor
 " hi CursorIM
-" hi CursorColumn
+hi CursorColumn gui=NONE guibg=#edf6ff guifg=NONE
 hi CursorLine gui=NONE guibg=#edf6ff guifg=NONE
 hi Directory gui=NONE guifg=#0000C0
 " hi DiffAdd
 " hi DiffChange
 " hi DiffDelete
 " hi DiffText
-" hi EndOfBuffer
+hi EndOfBuffer guifg=#0000C0
 " hi ErrorMsg
 " hi VertSplit
 " hi Folded
 " hi FoldColumn
 hi clear SignColumn
-" hi IncSearch
+hi IncSearch gui=NONE guibg=#cccccc
 hi LineNr guifg=#545454
 hi CursorLineNr guifg=#7F0055
 hi MatchParen guibg=#faeecd
-" hi ModeMsg
+hi ModeMsg guifg=#303030
 " hi MoreMsg
 " hi NonText
 hi Normal gui=NONE guifg=black guibg=white
@@ -93,14 +93,14 @@ hi PmenuSbar guibg=#F5F4EF
 hi PmenuThumb guibg=#C8D6FB
 " hi Question
 " hi QuickFixLine
-" hi Search
+hi Search guibg=#ffff80
 " hi SpecialKey
 " hi SpellBad
 " hi SpellCap
 " hi SpellLocal
 " hi SpellRare
-" hi StatusLine
-" hi StatusLineNC
+hi StatusLine guibg=white guifg=#303030
+hi StatusLineNC guibg=white guifg=#575757
 " hi StatusLineTerm
 " hi StatusLineTermNC
 " hi TabLine
@@ -120,7 +120,7 @@ hi Visual gui=NONE guibg=#cccccc
 " NERDTree
 """"""""""""""""""""""
 
-" hi NERDTreeDir gui=bold guibg=NONE guifg=#145404
+hi NERDTreeUp gui=NONE guifg=Blue guibg=#fafabb
 
 """"""""""""""""""""""
 " TypeScript
@@ -129,4 +129,11 @@ hi Visual gui=NONE guibg=#cccccc
 hi typescriptBraces gui=NONE guibg=NONE guifg=black
 hi typescriptLogicSymbols gui=NONE guibg=NONE guifg=black
 
-" hi typescriptStringS gui=NONE guibg=NONE guifg=#145404
+""""""""""""""""""""""
+" Markdown
+""""""""""""""""""""""
+
+hi mkdHeading gui=bold guifg=#7F0055
+hi mkdCodeStart gui=bold guifg=#000161
+hi mkdCodeEnd gui=bold guifg=#000161
+hi mkdCode gui=bold guifg=#000161

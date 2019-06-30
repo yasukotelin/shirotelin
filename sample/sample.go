@@ -1,15 +1,25 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
+
+type Sample interface {
+	method()
+}
 
 // Sample is sample struct
-type Sample struct {
-	body string
+type sample struct {
+	body     string
+	contents []int
+	pointer  bool
 }
 
 // method is sample method
-func (s *Sample) method() {
+func (s *sample) method() error {
 	fmt.Printf("sample> %s\n", s.body)
+	return nil
 }
 
 func main() {
@@ -21,6 +31,18 @@ func main() {
 	for _, n := range numbers {
 		fmt.Println(n)
 	}
+
+	s := &sample{
+		body:     msg,
+		contents: numbers,
+		pointer:  false,
+	}
+	if err := s.method(); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	os.Exit(0)
 }
 
 // greeting prints msg
