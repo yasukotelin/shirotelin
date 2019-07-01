@@ -68,7 +68,7 @@ hi Todo gui=NONE guifg=Blue guibg=Yellow
 " hi CursorIM
 hi CursorColumn gui=NONE guibg=#edf6ff guifg=NONE
 hi CursorLine gui=NONE guibg=#edf6ff guifg=NONE
-hi Directory gui=NONE guifg=#0000C0
+hi Directory gui=NONE guifg=#000161
 " hi DiffAdd
 " hi DiffChange
 " hi DiffDelete
