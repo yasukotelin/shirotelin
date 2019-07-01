@@ -11,14 +11,14 @@ let g:colors_name = "shirotelin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment gui=NONE guifg=#006300
+hi Comment cterm=NONE ctermfg=22 gui=NONE guifg=#006300
 
-hi Constant gui=bold guifg=#0000C0
-hi String gui=NONE guifg=#0000C0
-hi Character gui=NONE guifg=#0000C0
-hi Number gui=NONE guifg=#0000C0
-hi Boolean gui=bold guifg=#0000C0
-hi Float gui=NONE guifg=#0000C0
+hi Constant cterm=bold ctermfg=21 gui=bold guifg=#0000C0
+hi String cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Character cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Number cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Boolean cterm=bold ctermfg=21 gui=bold guifg=#0000C0
+hi Float cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 
 hi Identifier gui=bold guifg=#000161
 hi Function gui=bold guifg=#000161
@@ -86,7 +86,7 @@ hi MatchParen guibg=#faeecd
 hi ModeMsg guifg=#303030
 " hi MoreMsg
 " hi NonText
-hi Normal gui=NONE guifg=black guibg=white
+hi Normal cterm=NONE ctermfg=232 ctermbg=231 gui=NONE guifg=black guibg=white
 hi Pmenu guibg=#ededed
 hi PmenuSel guifg=black guibg=#C8D6FB
 hi PmenuSbar guibg=#F5F4EF
