@@ -1,7 +1,44 @@
-# shirotelin
+<p align="center" style="font-size: 80px">🎉 shirotelin 🎉</p>
+<p align="center">shirotelin is New Classical light colorscheme for Vim!</p>
 
-shirotelin is light colorscheme for Vim!
+---
 
-Ultimate standard color scheme is inspired by default light theme of Eclipse, notepad++, InteliJ, Visual Studio, 秀丸エディタ, sakura editor, and more⚡
+Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
 > **NOTE** this scheme is creating now! comming soon.
+
+<img src="images/title.png">
+
+## Features
+
+- Eclipse base and classical color.
+- So easy to see because good contrast.
+- Tested with many test.* files.
+
+## Install
+
+If you use any vim plugin manager, refer to the following.
+
+**vim-plug**
+
+```vim
+Plug 'yasukotelin/shirotelin'
+```
+
+**dein.vim**
+
+```vim
+call dein#add('yasukotelin/shirotelin')
+```
+
+If you want to manual install, you download `colors/shirotelin.vim` and puts on your `colors` directory.
+
+## Screenshots
+
+**NERDTree**
+
+<img src="images/NERDTree.png">
+
+**vim-plug**
+
+<img src="images/vim-plug.png">
