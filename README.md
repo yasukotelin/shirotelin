@@ -1,7 +1,6 @@
-<p align="center" style="font-size: 80px">🎉 shirotelin 🎉</p>
-<p align="center">shirotelin is New Classical light colorscheme for Vim!</p>
+<h1 align="center">🎉 shirotelin 🎉</h1>
 
----
+<p align="center">shirotelin is New Classical light colorscheme for Vim!</p>
 
 Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
