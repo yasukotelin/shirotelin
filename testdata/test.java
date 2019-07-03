@@ -9,13 +9,13 @@ public class Sample {
 
     public static void main(String[] args) {
         String msg = MESSAGE;
-        // 挨拶の読み出し (comment sample)
+        // comment
         greeting(msg);
 
         int a = 12;
         boolean flag = true;
 
-        // TODO サンプル
+        // TODO todo sample
         Date d = new Date();
 
         if (d != null && a != 11) {

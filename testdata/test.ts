@@ -1,26 +1,44 @@
-'use strict';
+"use strict"
 
-const msg = "hello, telin colorscheme!";
+interface SampleInterface {
+    A: (msg: string) => string;
+    B: (a: A) => boolean;
+}
 
-let sample = new Sample(msg);
-sample.greeting();
+namespace Typescript {
+    export class Person implements sampleclass {
 
-// Sample class and サンプルコメント
-class Sample {
-    constructor(msg) {
-        this.msg = msg;
+        protected name: string;
+        protected age: number;
+        protected message: string;
+
+        public get getName(): string {
+            return this.name;
+        }
+
+        constructor(name: string) {
+            this.name = name;
+            this.age = 20;
+            this.message = "message";    
+        }
+
+        private add = (num1: number, num2: number): number => num1 + num2;
     }
+}
 
-    greeting() {
-        console.log(this.msg);
+function sampleFunction(msg: string, b: B) {
+    // comment
+    var log =  "log";  
+    console.log(log);
+}
+
+async function asynFunc() {
+    for (var msg in messages) {
+        await delay(3000);
+        console.log(msg);
     }
 }
 
-function add(a, b) {
-    return a + b;
-}
-
-// アロー関数
-var allowSample = (msg) => {
-    console.log(msg);
-}
+(function () {
+    sampleFunction("hello, world");
+})();

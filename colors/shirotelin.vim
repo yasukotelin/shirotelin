@@ -46,7 +46,7 @@ hi Special gui=bold guifg=#9425a8
 hi SpecialChar gui=bold guifg=#9425a8
 hi Tag gui=bold guifg=#9425a8
 hi Delimiter gui=bold guifg=#9425a8
-hi SpecialComment gui=NONE guifg=#006300
+hi SpecialComment cterm=NONE ctermfg=22 ctermbg=NONE gui=NONE guifg=#006300
 hi Debug gui=bold guifg=#9425a8
 
 hi Underlined gui=underline guifg=#9425a8
@@ -55,7 +55,8 @@ hi Underlined gui=underline guifg=#9425a8
 
 hi Error gui=bold guifg=Red guibg=white
 
-hi Todo gui=NONE guifg=Blue guibg=Yellow
+" TODO Todoとsearchの色が似ていて紛らわしい
+hi Todo cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guibg=NONE
 
 """"""""""""""""""""""
 " highlight groups
@@ -137,3 +138,4 @@ hi mkdHeading gui=bold guifg=#7F0055
 hi mkdCodeStart gui=bold guifg=#000161
 hi mkdCodeEnd gui=bold guifg=#000161
 hi mkdCode gui=bold guifg=#000161
+hi mkdBold gui=bold

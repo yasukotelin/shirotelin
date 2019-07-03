@@ -1,26 +1,35 @@
-'use strict';
+"use strict"
 
-const msg = "hello, telin colorscheme!";
+export class Person {
 
-let sample = new Sample(msg);
-sample.greeting();
-
-// Sample class and サンプルコメント
-class Sample {
-    constructor(msg) {
-        this.msg = msg;
+    public getName() {
+        return this.name;
     }
 
-    greeting() {
-        console.log(this.msg);
+    constructor(name) {
+        this.name = name;
+        this.age = 20;
+        this.message = "message";    
+    }
+
+    private add = (num1, num2) => num1 + num2;
+}
+
+function sampleFunction(msg) {
+    // comment
+    var log =  "log";  
+    const num = 12;
+    let b = true;
+    console.log(log);
+}
+
+async function asynFunc() {
+    for (var msg in messages) {
+        await delay(3000);
+        console.log(msg);
     }
 }
 
-function add(a, b) {
-    return a + b;
-}
-
-// アロー関数
-var allowSample = (msg) => {
-    console.log(msg);
-}
+(function () {
+    sampleFunction("hello, world");
+})();
