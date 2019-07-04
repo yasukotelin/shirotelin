@@ -70,10 +70,10 @@ hi Todo cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guibg=NONE
 hi CursorColumn gui=NONE guibg=#edf6ff guifg=NONE
 hi CursorLine gui=NONE guibg=#edf6ff guifg=NONE
 hi Directory gui=NONE guifg=#000161
-" hi DiffAdd
-" hi DiffChange
-" hi DiffDelete
-" hi DiffText
+hi DiffAdd guibg=#d6f2c9
+hi DiffChange guibg=#ffe6ab
+hi DiffDelete gui=NONE guibg=#f2cbcb guifg=#f2cbcb
+hi DiffText gui=NONE guibg=#ffe6ab
 hi EndOfBuffer guifg=#0000C0
 " hi ErrorMsg
 " hi VertSplit

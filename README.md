@@ -34,6 +34,10 @@ If you want to manual install, you download `colors/shirotelin.vim` and puts on 
 
 ## Screenshots
 
+**diff**
+
+<img src="images/diff.png">
+
 **NERDTree**
 
 <img src="images/NERDTree.png">
