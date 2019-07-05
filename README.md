@@ -32,6 +32,15 @@ call dein#add('yasukotelin/shirotelin')
 
 If you want to manual install, you download `colors/shirotelin.vim` and puts on your `colors` directory.
 
+## Setting
+
+Write to your `.vimrc`.
+
+```vimrc
+colorscheme shirotelin
+set background=light
+```
+
 ## Screenshots
 
 **NERDTree**

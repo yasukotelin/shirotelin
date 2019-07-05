@@ -1,0 +1,15 @@
+{
+    "title": "json sample",
+    "date": "2019-07-04",
+    "num": 12,
+    "array-sample": [
+        "obj": {
+            "contents1": "hello",
+            "contents2": "world"
+        },
+        "obj": {
+            "contents1": "hello",
+            "contents2": "world"
+        }
+    ]
+}
