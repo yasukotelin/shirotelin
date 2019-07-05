@@ -43,6 +43,10 @@ set background=light
 
 ## Screenshots
 
+**diff**
+
+<img src="images/diff.png">
+
 **NERDTree**
 
 <img src="images/NERDTree.png">
