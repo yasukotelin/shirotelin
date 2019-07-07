@@ -34,9 +34,35 @@ If you want to manual install, you download `colors/shirotelin.vim` and puts on 
 
 ## Screenshots
 
+**CursorLine**
+
+If you set the `set cursorline`, you can see the good cursor line color👍
+
+<img src="images/cursorline.png" >
+
+**Search**
+
+<img src="images/search.png">
+
+**Completion**
+
+<img src="images/complete.png">
+
+**match paren**
+
+<img src="images/match-paren.png">
+
 **diff**
 
 <img src="images/diff.png">
+
+**Go**
+
+<img src="images/sample-go.png">
+
+**HTML**
+
+<img src="images/sample-html.png">
 
 **NERDTree**
 
