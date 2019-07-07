@@ -1,3 +1,15 @@
+"
+"            /$$       /$$                       /$$               /$$ /$$
+"           | $$      |__/                      | $$              | $$|__/
+"   /$$$$$$$| $$$$$$$  /$$  /$$$$$$   /$$$$$$  /$$$$$$    /$$$$$$ | $$ /$$ /$$$$$$$
+"  /$$_____/| $$__  $$| $$ /$$__  $$ /$$__  $$|_  $$_/   /$$__  $$| $$| $$| $$__  $$
+" |  $$$$$$ | $$  \ $$| $$| $$  \__/| $$  \ $$  | $$    | $$$$$$$$| $$| $$| $$  \ $$
+"  \____  $$| $$  | $$| $$| $$      | $$  | $$  | $$ /$$| $$_____/| $$| $$| $$  | $$
+"  /$$$$$$$/| $$  | $$| $$| $$      |  $$$$$$/  |  $$$$/|  $$$$$$$| $$| $$| $$  | $$
+" |_______/ |__/  |__/|__/|__/       \______/    \___/   \_______/|__/|__/|__/  |__/
+"
+"                                                           created by yasukotelin
+"
 
 set background=light
 if exists("syntax_on")
@@ -55,7 +67,6 @@ hi Underlined gui=underline guifg=#9425a8
 
 hi Error gui=bold guifg=Red guibg=white
 
-" TODO Todoとsearchの色が似ていて紛らわしい
 hi Todo cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guibg=NONE
 
 """"""""""""""""""""""
@@ -122,13 +133,6 @@ hi Visual gui=NONE guibg=#cccccc
 """"""""""""""""""""""
 
 hi NERDTreeUp gui=NONE guifg=Blue guibg=#fafabb
-
-""""""""""""""""""""""
-" TypeScript
-""""""""""""""""""""""
-
-hi typescriptBraces gui=NONE guibg=NONE guifg=black
-hi typescriptLogicSymbols gui=NONE guibg=NONE guifg=black
 
 """"""""""""""""""""""
 " Markdown

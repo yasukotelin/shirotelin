@@ -1,0 +1,10 @@
+{
+    "title": "json test sample",
+    "value": 12,
+    "array": [
+        {
+            "content1": 1,
+            "content2": "hello, world"
+        }
+    ]
+}
