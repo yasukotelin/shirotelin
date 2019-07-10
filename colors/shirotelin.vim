@@ -91,7 +91,7 @@ hi EndOfBuffer guifg=#0000C0
 " hi Folded
 " hi FoldColumn
 hi clear SignColumn
-hi IncSearch gui=NONE guibg=#cccccc
+hi IncSearch gui=NONE guibg=#cfcca3
 hi LineNr guifg=#545454
 hi CursorLineNr guifg=#7F0055
 hi MatchParen guibg=#faeecd

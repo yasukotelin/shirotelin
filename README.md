@@ -4,7 +4,7 @@
 
 Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
-> **NOTE** Only supported for GVIM. I'm creating the color for Terminal. Comming soon.
+> **NOTE** Only supported for GVIM🌠.
 
 <img src="images/title.png">
 
