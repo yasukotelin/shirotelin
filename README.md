@@ -4,9 +4,9 @@
 
 Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
-> **NOTE** Only supported for GVIM🌠.
+<img src="images/main-title.png">
 
-<img src="images/title.png">
+> **NOTE** Only supported for GVIM🌠.
 
 ## Features
 
@@ -32,8 +32,6 @@ call dein#add('yasukotelin/shirotelin')
 
 If you want to manual install, you download `colors/shirotelin.vim` and puts on your `colors` directory.
 
-## Setting
-
 Write to your `.vimrc`.
 
 ```vimrc
@@ -49,33 +47,43 @@ If you set the `set cursorline`, you can see the good cursor line color👍
 
 <img src="images/cursorline.png" >
 
+---
+
 **Search**
 
-<img src="images/search.png">
+<img src="images/search.gif">
+
+---
 
 **Completion**
 
-<img src="images/complete.png">
+<img src="images/complete.gif">
 
-**match paren**
-
-<img src="images/match-paren.png">
+---
 
 **diff**
 
 <img src="images/diff.png">
 
+---
+
 **Go**
 
 <img src="images/sample-go.png">
+
+---
 
 **HTML**
 
 <img src="images/sample-html.png">
 
+---
+
 **NERDTree**
 
 <img src="images/NERDTree.png">
+
+---
 
 **vim-plug**
 

@@ -82,9 +82,9 @@ hi CursorColumn gui=NONE guibg=#edf6ff guifg=NONE
 hi CursorLine gui=NONE guibg=#edf6ff guifg=NONE
 hi Directory gui=NONE guifg=#000161
 hi DiffAdd guibg=#d6f2c9
-hi DiffChange guibg=#ffe6ab
+hi DiffChange guibg=#CAD9FA
 hi DiffDelete gui=NONE guibg=#f2cbcb guifg=#f2cbcb
-hi DiffText gui=NONE guibg=#ffe6ab
+hi DiffText gui=NONE guibg=#CAD9FA
 hi EndOfBuffer guifg=#0000C0
 " hi ErrorMsg
 " hi VertSplit
@@ -99,10 +99,10 @@ hi ModeMsg guifg=#303030
 " hi MoreMsg
 " hi NonText
 hi Normal cterm=NONE ctermfg=232 ctermbg=231 gui=NONE guifg=black guibg=white
-hi Pmenu guibg=#ededed
-hi PmenuSel guifg=black guibg=#C8D6FB
+hi Pmenu guibg=#FFFFE1
+hi PmenuSel guifg=black guibg=#CDE8FF
 hi PmenuSbar guibg=#F5F4EF
-hi PmenuThumb guibg=#C8D6FB
+hi PmenuThumb guibg=#CDE8FF
 " hi Question
 " hi QuickFixLine
 hi Search guibg=#ffff80
@@ -111,8 +111,8 @@ hi Search guibg=#ffff80
 " hi SpellCap
 " hi SpellLocal
 " hi SpellRare
-hi StatusLine guibg=white guifg=#303030
-hi StatusLineNC guibg=white guifg=#575757
+hi StatusLine guibg=white guifg=#4D7A97
+hi StatusLineNC guibg=white guifg=#D9DEE4
 " hi StatusLineTerm
 " hi StatusLineTermNC
 " hi TabLine
@@ -120,7 +120,7 @@ hi StatusLineNC guibg=white guifg=#575757
 " hi TabLineSel
 " hi Terminal
 hi Title gui=bold guifg=#7F0055
-hi Visual gui=NONE guibg=#cccccc
+hi Visual gui=NONE guibg=#CDE8FF
 " hi VisualNOS
 " hi WarningMsg
 " hi WildMenu
