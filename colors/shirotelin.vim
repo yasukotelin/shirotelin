@@ -23,7 +23,7 @@ let g:colors_name = "shirotelin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment cterm=NONE ctermfg=22 gui=NONE guifg=#006300
+hi Comment cterm=NONE ctermfg=28 gui=NONE guifg=#006300
 
 hi Constant cterm=bold ctermfg=21 gui=bold guifg=#0000C0
 hi String cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
@@ -32,38 +32,38 @@ hi Number cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 hi Boolean cterm=bold ctermfg=21 gui=bold guifg=#0000C0
 hi Float cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 
-hi Identifier gui=bold guifg=#000161
-hi Function gui=bold guifg=#000161
+hi Identifier cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi Function cterm=bold ctermfg=18 gui=bold guifg=#000161
 
-hi Statement gui=bold guifg=#7F0055
-hi Conditional gui=bold guifg=#7F0055
-hi Repeat gui=bold guifg=#7F0055
-hi Label gui=bold guifg=#7F0055
-hi Operator gui=bold guifg=#7F0055
-hi Keyword gui=bold guifg=#7F0055
-hi Exception gui=bold guifg=#7F0055
+hi Statement cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Conditional cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Repeat cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Label cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Operator cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Keyword cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Exception cterm=bold ctermfg=125 gui=bold guifg=#7F0055
 
-hi PreProc gui=bold guifg=#3e347d
-hi Include gui=bold guifg=#3e347d
-hi Define gui=bold guifg=#3e347d
-hi Macro gui=bold guifg=#3e347d
-hi PreCondit gui=bold guifg=#3e347d
+hi PreProc cterm=bold ctermfg=56 gui=bold guifg=#3e347d
+hi Include cterm=bold ctermfg=56 gui=bold guifg=#3e347d
+hi Define cterm=bold ctermfg=56 gui=bold guifg=#3e347d
+hi Macro cterm=bold ctermfg=56 gui=bold guifg=#3e347d
+hi PreCondit cterm=bold ctermfg=56 gui=bold guifg=#3e347d
 
-hi Type gui=bold guifg=#7F0055
-hi StorageClass gui=bold guifg=#7F0055
-hi Structure gui=bold guifg=#7F0055
-hi Typedef gui=bold guifg=#7F0055
+hi Type cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi StorageClass cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Structure cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Typedef cterm=bold ctermfg=125 gui=bold guifg=#7F0055
 
-hi Special gui=bold guifg=#9425a8
-hi SpecialChar gui=bold guifg=#9425a8
-hi Tag gui=bold guifg=#9425a8
-hi Delimiter gui=bold guifg=#9425a8
+hi Special cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi SpecialChar cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi Tag cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi Delimiter cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 hi SpecialComment cterm=NONE ctermfg=22 ctermbg=NONE gui=NONE guifg=#006300
-hi Debug gui=bold guifg=#9425a8
+hi Debug cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 
 hi Underlined gui=underline guifg=#9425a8
 
-" hi Ignore gui=NONE guifg=NONE
+hi Ignore ctermfg=231 guifg=bg
 
 hi Error gui=bold guifg=Red guibg=white
 
@@ -92,7 +92,7 @@ hi EndOfBuffer guifg=#0000C0
 " hi FoldColumn
 hi clear SignColumn
 hi IncSearch gui=NONE guibg=#cfcca3
-hi LineNr guifg=#545454
+hi LineNr ctermfg=241 guifg=#545454
 hi CursorLineNr guifg=#7F0055
 hi MatchParen guibg=#faeecd
 hi ModeMsg guifg=#303030
