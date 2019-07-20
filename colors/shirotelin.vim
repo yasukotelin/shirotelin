@@ -100,9 +100,9 @@ hi ModeMsg ctermfg=237 guifg=#303030
 " hi NonText
 hi Normal cterm=NONE ctermfg=0 ctermbg=231 gui=NONE guifg=black guibg=white
 hi Pmenu ctermbg=230 guibg=#FFFFE1
-hi PmenuSel ctermfg=0 ctermbg=117 guifg=black guibg=#CDE8FF
+hi PmenuSel ctermfg=0 ctermbg=153 guifg=black guibg=#CDE8FF
 hi PmenuSbar ctermbg=254 guibg=#F5F4EF
-hi PmenuThumb ctermbg=117 guibg=#CDE8FF
+hi PmenuThumb ctermbg=153 guibg=#CDE8FF
 " hi Question
 " hi QuickFixLine
 hi Search ctermbg=227 guibg=#ffff80
@@ -120,7 +120,7 @@ hi StatusLineNC ctermbg=231 ctermfg=253 guibg=white guifg=#D9DEE4
 " hi TabLineSel
 " hi Terminal
 hi Title cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Visual cterm=NONE ctermbg=117 gui=NONE guibg=#CDE8FF
+hi Visual cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
 " hi VisualNOS
 " hi WarningMsg
 " hi WildMenu
