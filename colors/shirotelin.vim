@@ -25,107 +25,107 @@ let g:colors_name = "shirotelin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment cterm=NONE ctermfg=28 gui=NONE guifg=#006300
+hi Comment term=NONE cterm=NONE ctermfg=28 gui=NONE guifg=#006300
 
-hi Constant cterm=bold ctermfg=21 gui=bold guifg=#0000C0
-hi String cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
-hi Character cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
-hi Number cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
-hi Boolean cterm=bold ctermfg=21 gui=bold guifg=#0000C0
-hi Float cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Constant term=bold cterm=bold ctermfg=21 gui=bold guifg=#0000C0
+hi String term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Character term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Number term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Boolean term=NONE cterm=bold ctermfg=21 gui=bold guifg=#0000C0
+hi Float term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 
-hi Identifier cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi Function cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi Identifier term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi Function term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
 
-hi Statement cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Conditional cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Repeat cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Label cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Operator cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Keyword cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Exception cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Statement term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Conditional term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Repeat term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Label term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Operator term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Keyword term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Exception term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 
-hi PreProc cterm=bold ctermfg=56 gui=bold guifg=#3e347d
-hi Include cterm=bold ctermfg=56 gui=bold guifg=#3e347d
-hi Define cterm=bold ctermfg=56 gui=bold guifg=#3e347d
-hi Macro cterm=bold ctermfg=56 gui=bold guifg=#3e347d
-hi PreCondit cterm=bold ctermfg=56 gui=bold guifg=#3e347d
+hi PreProc term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
+hi Include term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
+hi Define term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
+hi Macro term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
+hi PreCondit term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
 
-hi Type cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi StorageClass cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Structure cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Typedef cterm=bold ctermfg=125 gui=bold guifg=#7F0055
+hi Type term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi StorageClass term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Structure term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Typedef term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 
-hi Special cterm=bold ctermfg=127 gui=bold guifg=#9425a8
-hi SpecialChar cterm=bold ctermfg=127 gui=bold guifg=#9425a8
-hi Tag cterm=bold ctermfg=127 gui=bold guifg=#9425a8
-hi Delimiter cterm=bold ctermfg=127 gui=bold guifg=#9425a8
-hi SpecialComment cterm=NONE ctermfg=22 ctermbg=NONE gui=NONE guifg=#006300
-hi Debug cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi Special term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi SpecialChar term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi Tag term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi Delimiter term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
+hi SpecialComment term=NONE cterm=NONE ctermfg=22 ctermbg=NONE gui=NONE guifg=#006300
+hi Debug term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 
-hi Underlined gui=underline guifg=#9425a8
+hi Underlined term=underline cterm=underline gui=underline guifg=#9425a8
 
 hi Ignore ctermfg=231 guifg=bg
 
-hi Error cterm=bold ctermfg=1 ctermbg=231 gui=bold guifg=Red guibg=white
+hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 gui=bold guifg=Red guibg=white
 
-hi Todo cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guibg=NONE
+hi Todo term=bold cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guibg=NONE
 
 """"""""""""""""""""""
 " highlight groups
 """"""""""""""""""""""
 
 " hi ColorColumn
-" hi Conceal
+hi Conceal term=NONE cterm=NONE ctermfg=253 ctermbg=246 guifg=LightGrey guibg=DarkGrey
 " hi Cursor
 " hi lCursor
 " hi CursorIM
-hi CursorColumn cterm=NONE ctermbg=195 ctermfg=NONE gui=NONE guibg=#edf6ff guifg=NONE
-hi CursorLine cterm=NONE ctermbg=195 ctermfg=NONE gui=NONE guibg=#edf6ff guifg=NONE
-hi Directory cterm=NONE ctermfg=18 gui=NONE guifg=#000161
-hi DiffAdd ctermbg=193 guibg=#d6f2c9
-hi DiffChange ctermbg=153 guibg=#CAD9FA
-hi DiffDelete cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
-hi DiffText cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
+hi clear CursorColumn
+hi clear CursorLine
+hi Directory term=NONE cterm=NONE ctermfg=18 gui=NONE guifg=#000161
+hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
+hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
+hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
+hi DiffText term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
 hi EndOfBuffer ctermfg=21 guifg=#0000C0
-" hi ErrorMsg
+hi ErrorMsg term=NONE cterm=NONE ctermfg=231 ctermbg=196 gui=NONE guifg=Red guibg=white
 " hi VertSplit
-" hi Folded
-" hi FoldColumn
+hi Folded term=NONE cterm=NONE ctermfg=18 ctermbg=253 guifg=DarkBlue guibg=LightGrey
+hi FoldColumn term=NONE cterm=NONE ctermfg=18 ctermbg=248 guifg=DarkBlue guibg=Grey
 hi clear SignColumn
-hi IncSearch cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
+hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr ctermfg=241 guifg=#545454
-hi CursorLineNr ctermfg=125 guifg=#7F0055
+hi CursorLineNr term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi MatchParen ctermbg=11 guibg=#faeecd
-hi ModeMsg ctermfg=237 guifg=#303030
-" hi MoreMsg
+hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
+hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi NonText
-hi Normal cterm=NONE ctermfg=0 ctermbg=231 gui=NONE guifg=black guibg=white
+hi Normal term=NONE cterm=NONE ctermfg=0 ctermbg=231 gui=NONE guifg=black guibg=white
 hi Pmenu ctermbg=230 guibg=#FFFFE1
 hi PmenuSel ctermfg=0 ctermbg=153 guifg=black guibg=#CDE8FF
 hi PmenuSbar ctermbg=254 guibg=#F5F4EF
 hi PmenuThumb ctermbg=153 guibg=#CDE8FF
-" hi Question
+hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi QuickFixLine
 hi Search ctermbg=227 guibg=#ffff80
 " hi SpecialKey
-" hi SpellBad
-" hi SpellCap
-" hi SpellLocal
-" hi SpellRare
+hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=Red
+hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=Blue
+hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
+hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
 hi StatusLine ctermbg=231 ctermfg=67 guibg=white guifg=#4D7A97
 hi StatusLineNC ctermbg=231 ctermfg=253 guibg=white guifg=#D9DEE4
-" hi StatusLineTerm
-" hi StatusLineTermNC
+hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
+hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
 " hi TabLine
 " hi TabLineFill
 " hi TabLineSel
 " hi Terminal
-hi Title cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi Visual cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
-" hi VisualNOS
-" hi WarningMsg
-" hi WildMenu
+hi Title term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi Visual term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
+hi VisualNOS term=bold,underline cterm=bold,underline ctermfg=0 gui=bold,underline
+hi WarningMsg term=NONE cterm=NONE ctermfg=196 gui=NONE guifg=Red
+hi WildMenu term=NONE cterm=NONE ctermfg=0 ctermbg=226
 
 " hi Scrollbar
 " hi Menu
@@ -134,14 +134,14 @@ hi Visual cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
 " NERDTree
 """"""""""""""""""""""
 
-hi NERDTreeUp cterm=NONE ctermfg=4 ctermbg=229 gui=NONE guifg=Blue guibg=#fafabb
+hi NERDTreeUp term=NONE cterm=NONE ctermfg=4 ctermbg=229 gui=NONE guifg=Blue guibg=#fafabb
 
 """"""""""""""""""""""
 " Markdown
 """"""""""""""""""""""
 
-hi mkdHeading cterm=bold ctermfg=125 gui=bold guifg=#7F0055
-hi mkdCodeStart cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi mkdCodeEnd cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi mkdCode cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi mkdBold cterm=bold gui=bold
+hi mkdHeading term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi mkdCodeStart term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi mkdCodeEnd term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi mkdCode term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi mkdBold term=bold cterm=bold gui=bold
