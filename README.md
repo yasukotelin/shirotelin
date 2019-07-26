@@ -6,12 +6,6 @@ Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ,
 
 <img src="images/main-title.png">
 
-## Features
-
-- Eclipse base and classical color.
-- So easy to see because good contrast.
-- Tested with many test.* files.
-
 ## Install
 
 If you use any vim plugin manager, refer to the following.
@@ -28,7 +22,7 @@ Plug 'yasukotelin/shirotelin'
 call dein#add('yasukotelin/shirotelin')
 ```
 
-If you want to manual install, you download `colors/shirotelin.vim` and puts on your `colors` directory.
+If you want to manual install, you download `colors/shirotelin.vim` and puts on your `~/.vim/colors` directory.
 
 Write to your `.vimrc`.
 
@@ -38,14 +32,6 @@ set background=light
 ```
 
 ## Screenshots
-
-**CursorLine**
-
-If you set the `set cursorline`, you can see the good cursor line color👍
-
-<img src="images/cursorline.png" >
-
----
 
 **Search**
 
