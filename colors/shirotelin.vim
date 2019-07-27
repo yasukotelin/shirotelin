@@ -21,6 +21,7 @@ endif
 set t_Co=256
 let g:colors_name = "shirotelin"
 
+
 """"""""""""""""""""""
 " group-name
 """"""""""""""""""""""

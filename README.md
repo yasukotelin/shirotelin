@@ -4,7 +4,20 @@
 
 Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
-<img src="images/main-title.png">
+<table>
+    <tr>
+        <th>GVim(Windows)</th>
+        <td><img src="images/main-title.png"></td>
+    </tr>
+    <tr>
+        <th>Vim(PowerShell on Windows)</th>
+        <td><img src="images/shirotelin-term.gif"></td>
+    </tr>
+    <tr>
+        <th>Vim(on Mac)</th>
+        <td><img src="images/mac.png"></td>
+    </tr>
+</table>
 
 ## Install
 
