@@ -7,14 +7,20 @@ Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ,
 <table>
     <tr>
         <th>GVim(Windows)</th>
+    </tr>
+    <tr>
         <td><img src="images/main-title.png"></td>
     </tr>
     <tr>
         <th>Vim(PowerShell on Windows)</th>
+    </tr>
+    <tr>
         <td><img src="images/shirotelin-term.gif"></td>
     </tr>
     <tr>
         <th>Vim(on Mac)</th>
+    </tr>
+    <tr>
         <td><img src="images/mac.png"></td>
     </tr>
 </table>
