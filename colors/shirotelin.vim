@@ -96,7 +96,7 @@ hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr ctermfg=241 guifg=#545454
 hi CursorLineNr term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
-hi MatchParen ctermbg=11 guibg=#faeecd
+hi MatchParen ctermbg=219 guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi NonText
