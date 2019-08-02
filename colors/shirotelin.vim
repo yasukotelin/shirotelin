@@ -21,6 +21,7 @@ endif
 set t_Co=256
 let g:colors_name = "shirotelin"
 
+
 """"""""""""""""""""""
 " group-name
 """"""""""""""""""""""
@@ -88,7 +89,7 @@ hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
 hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
 hi DiffText term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
 hi EndOfBuffer ctermfg=21 guifg=#0000C0
-hi ErrorMsg term=NONE cterm=NONE ctermfg=231 ctermbg=196 gui=NONE guifg=Red guibg=white
+hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
 " hi VertSplit
 hi Folded term=NONE cterm=NONE ctermfg=18 ctermbg=253 guifg=DarkBlue guibg=LightGrey
 hi FoldColumn term=NONE cterm=NONE ctermfg=18 ctermbg=248 guifg=DarkBlue guibg=Grey
