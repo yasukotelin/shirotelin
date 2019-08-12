@@ -81,8 +81,8 @@ hi Conceal term=NONE cterm=NONE ctermfg=253 ctermbg=246 guifg=LightGrey guibg=Da
 " hi Cursor
 " hi lCursor
 " hi CursorIM
-hi clear CursorColumn
-hi clear CursorLine
+hi CursorColumn term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#fafabb
+hi CursorLine term=underline cterm=underline gui=underline guibg=NONE
 hi Directory term=NONE cterm=NONE ctermfg=18 gui=NONE guifg=#000161
 hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
 hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
