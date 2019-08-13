@@ -81,7 +81,7 @@ hi Conceal term=NONE cterm=NONE ctermfg=253 ctermbg=246 guifg=LightGrey guibg=Da
 " hi Cursor
 " hi lCursor
 " hi CursorIM
-hi CursorColumn term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#f1e3ff
+hi clear CursorColumn
 hi CursorLine term=underline cterm=underline gui=underline guibg=NONE
 hi Directory term=NONE cterm=NONE ctermfg=18 gui=NONE guifg=#000161
 hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
@@ -147,3 +147,5 @@ hi mkdCodeStart term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
 hi mkdCodeEnd term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
 hi mkdCode term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
 hi mkdBold term=bold cterm=bold gui=bold
+
+hi lspReference term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#EEEEEE
