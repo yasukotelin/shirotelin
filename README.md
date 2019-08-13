@@ -12,16 +12,16 @@ Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ,
         <td><img src="images/main-title.png"></td>
     </tr>
     <tr>
-        <th>Vim(PowerShell on Windows)</th>
-    </tr>
-    <tr>
-        <td><img src="images/shirotelin-term.gif"></td>
-    </tr>
-    <tr>
         <th>Vim(on Mac)</th>
     </tr>
     <tr>
         <td><img src="images/mac.png"></td>
+    </tr>
+    <tr>
+        <th>Vim(PowerShell on Windows)</th>
+    </tr>
+    <tr>
+        <td><img src="images/with-powershell.gif"></td>
     </tr>
 </table>
 
@@ -48,6 +48,26 @@ Write to your `.vimrc`.
 ```vimrc
 colorscheme shirotelin
 set background=light
+```
+
+## Settings
+
+### Underline
+
+<img src="images/underline.png" alt="underline">
+
+Write this to your `.vimrc`
+
+**Underline ON**
+
+```.vimrc
+set cursorline
+```
+
+**Underline OFF**
+
+```.vimrc
+set nocursorline
 ```
 
 ## Screenshots
