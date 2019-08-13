@@ -26,7 +26,7 @@ let g:colors_name = "shirotelin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment term=NONE cterm=NONE ctermfg=28 gui=NONE guifg=#006300
+hi Comment      term=NONE cterm=NONE ctermfg=28 gui=NONE guifg=#006300
 
 hi Constant term=bold cterm=bold ctermfg=21 gui=bold guifg=#0000C0
 hi String term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
@@ -64,9 +64,10 @@ hi Delimiter term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 hi SpecialComment term=NONE cterm=NONE ctermfg=22 ctermbg=NONE gui=NONE guifg=#006300
 hi Debug term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 
+" TODO ctermfg
 hi Underlined term=underline cterm=underline gui=underline guifg=#9425a8
 
-hi Ignore ctermfg=231 guifg=bg
+hi Ignore term=NONE cterm=NONE ctermfg=231 gui=NONE guifg=bg
 
 hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 gui=bold guifg=Red guibg=white
 
@@ -78,7 +79,7 @@ hi Todo term=bold cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guib
 
 " hi ColorColumn
 hi Conceal term=NONE cterm=NONE ctermfg=253 ctermbg=246 guifg=LightGrey guibg=DarkGrey
-" hi Cursor
+hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
 " hi CursorIM
 hi clear CursorColumn
@@ -88,34 +89,34 @@ hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
 hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
 hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
 hi DiffText term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
-hi EndOfBuffer ctermfg=21 guifg=#0000C0
+hi EndOfBuffer term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
-" hi VertSplit
+hi VertSplit term=reverse cterm=reverse gui=reverse
 hi Folded term=NONE cterm=NONE ctermfg=18 ctermbg=253 guifg=DarkBlue guibg=LightGrey
 hi FoldColumn term=NONE cterm=NONE ctermfg=18 ctermbg=248 guifg=DarkBlue guibg=Grey
 hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
-hi LineNr ctermfg=241 guifg=#545454
+hi LineNr term=NONE cterm=NONE ctermfg=241 gui=NONE guifg=#545454
 hi CursorLineNr term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
-hi MatchParen ctermbg=219 guibg=#ffc7fe
+hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi NonText
 hi Normal term=NONE cterm=NONE ctermfg=0 ctermbg=231 gui=NONE guifg=black guibg=white
-hi Pmenu ctermbg=230 guibg=#FFFFE1
-hi PmenuSel ctermfg=0 ctermbg=153 guifg=black guibg=#CDE8FF
-hi PmenuSbar ctermbg=254 guibg=#F5F4EF
-hi PmenuThumb ctermbg=153 guibg=#CDE8FF
+hi Pmenu term=NONE cterm=NONE ctermbg=230 gui=NONE guibg=#FFFFE1
+hi PmenuSel term=NONE cterm=NONE ctermfg=0 ctermbg=153 gui=NONE guifg=black guibg=#CDE8FF
+hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
+hi PmenuThumb term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi QuickFixLine
-hi Search ctermbg=227 guibg=#ffff80
+hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
 " hi SpecialKey
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=Red
 hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=Blue
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
 hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
-hi StatusLine ctermbg=231 ctermfg=67 guibg=white guifg=#4D7A97
-hi StatusLineNC ctermbg=231 ctermfg=253 guibg=white guifg=#D9DEE4
+hi StatusLine term=bold cterm=bold ctermbg=67 ctermfg=231 gui=bold guibg=#4D7A97 guifg=white
+hi StatusLineNC term=bold cterm=bold ctermbg=253 ctermfg=231 gui=bold guibg=#D9DEE4 guifg=white
 hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
 hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
 " hi TabLine
