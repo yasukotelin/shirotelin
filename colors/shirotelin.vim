@@ -28,12 +28,12 @@ let g:colors_name = "shirotelin"
 
 hi Comment term=NONE cterm=NONE ctermfg=22 gui=NONE guifg=#006300
 
-hi Constant term=bold cterm=bold ctermfg=21 gui=bold guifg=#0000C0
-hi String term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
-hi Character term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
-hi Number term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
-hi Boolean term=NONE cterm=bold ctermfg=21 gui=bold guifg=#0000C0
-hi Float term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi Constant term=bold cterm=bold ctermfg=19 gui=bold guifg=#0000C0
+hi String term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
+hi Character term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
+hi Number term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
+hi Boolean term=NONE cterm=bold ctermfg=19 gui=bold guifg=#0000C0
+hi Float term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
 
 hi Identifier term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
 hi Function term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
@@ -88,14 +88,14 @@ hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
 hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
 hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
 hi DiffText term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
-hi EndOfBuffer term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
+hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
 hi VertSplit term=reverse cterm=reverse gui=reverse
 hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=LightGrey
 hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
 hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
-hi LineNr term=NONE cterm=NONE ctermfg=241 gui=NONE guifg=#545454
+hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
 hi CursorLineNr term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
