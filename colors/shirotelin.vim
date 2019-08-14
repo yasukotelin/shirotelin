@@ -26,7 +26,7 @@ let g:colors_name = "shirotelin"
 " group-name
 """"""""""""""""""""""
 
-hi Comment      term=NONE cterm=NONE ctermfg=28 gui=NONE guifg=#006300
+hi Comment term=NONE cterm=NONE ctermfg=22 gui=NONE guifg=#006300
 
 hi Constant term=bold cterm=bold ctermfg=21 gui=bold guifg=#0000C0
 hi String term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
@@ -35,8 +35,8 @@ hi Number term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 hi Boolean term=NONE cterm=bold ctermfg=21 gui=bold guifg=#0000C0
 hi Float term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 
-hi Identifier term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi Function term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi Identifier term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
+hi Function term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
 
 hi Statement term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi Conditional term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
@@ -46,11 +46,11 @@ hi Operator term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi Keyword term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi Exception term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 
-hi PreProc term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
-hi Include term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
-hi Define term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
-hi Macro term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
-hi PreCondit term=bold cterm=bold ctermfg=18 gui=bold guifg=#3e347d
+hi PreProc term=bold cterm=bold ctermfg=17 gui=bold guifg=#3e347d
+hi Include term=bold cterm=bold ctermfg=17 gui=bold guifg=#3e347d
+hi Define term=bold cterm=bold ctermfg=17 gui=bold guifg=#3e347d
+hi Macro term=bold cterm=bold ctermfg=17 gui=bold guifg=#3e347d
+hi PreCondit term=bold cterm=bold ctermfg=17 gui=bold guifg=#3e347d
 
 hi Type term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi StorageClass term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
@@ -64,8 +64,7 @@ hi Delimiter term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 hi SpecialComment term=NONE cterm=NONE ctermfg=22 ctermbg=NONE gui=NONE guifg=#006300
 hi Debug term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 
-" TODO ctermfg
-hi Underlined term=underline cterm=underline gui=underline guifg=#9425a8
+hi Underlined term=underline cterm=underline ctermfg=127 gui=underline guifg=#9425a8
 
 hi Ignore term=NONE cterm=NONE ctermfg=231 gui=NONE guifg=bg
 
@@ -84,7 +83,7 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi CursorIM
 hi clear CursorColumn
 hi CursorLine term=underline cterm=underline gui=underline guibg=NONE
-hi Directory term=NONE cterm=NONE ctermfg=18 gui=NONE guifg=#000161
+hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
 hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
 hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
 hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
@@ -92,8 +91,8 @@ hi DiffText term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=21 gui=NONE guifg=#0000C0
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
 hi VertSplit term=reverse cterm=reverse gui=reverse
-hi Folded term=NONE cterm=NONE ctermfg=18 ctermbg=253 guifg=DarkBlue guibg=LightGrey
-hi FoldColumn term=NONE cterm=NONE ctermfg=18 ctermbg=248 guifg=DarkBlue guibg=Grey
+hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=LightGrey
+hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
 hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr term=NONE cterm=NONE ctermfg=241 gui=NONE guifg=#545454
@@ -137,16 +136,16 @@ hi WildMenu term=NONE cterm=NONE ctermfg=0 ctermbg=226
 """"""""""""""""""""""
 
 hi NERDTreeUp term=NONE cterm=NONE ctermfg=4 ctermbg=229 gui=NONE guifg=Blue guibg=#fafabb
-hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=18 gui=NONE guifg=#000161
+hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
 
 """"""""""""""""""""""
 " Markdown
 """"""""""""""""""""""
 
 hi mkdHeading term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
-hi mkdCodeStart term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi mkdCodeEnd term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
-hi mkdCode term=bold cterm=bold ctermfg=18 gui=bold guifg=#000161
+hi mkdCodeStart term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
+hi mkdCodeEnd term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
+hi mkdCode term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
 hi mkdBold term=bold cterm=bold gui=bold
 
 hi lspReference term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#EEEEEE
