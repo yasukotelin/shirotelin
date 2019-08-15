@@ -70,7 +70,7 @@ hi Ignore term=NONE cterm=NONE ctermfg=231 gui=NONE guifg=bg
 
 hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 gui=bold guifg=Red guibg=white
 
-hi Todo term=bold cterm=bold ctermfg=22 ctermbg=NONE gui=bold guifg=#006300 guibg=NONE
+hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#006300 guibg=#afd7af
 
 """"""""""""""""""""""
 " highlight groups
@@ -84,10 +84,10 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 hi clear CursorColumn
 hi CursorLine term=underline cterm=underline gui=underline guibg=NONE
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
-hi DiffAdd term=NONE cterm=NONE ctermbg=193 guibg=#d6f2c9
+hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#D6F2C9
 hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
-hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#f2cbcb guifg=#f2cbcb
-hi DiffText term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CAD9FA
+hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#F2CBCB guifg=#F2CBCB
+hi DiffText term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#AEC4F5
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
 hi VertSplit term=reverse cterm=reverse gui=reverse
@@ -96,14 +96,15 @@ hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=G
 hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
-hi CursorLineNr term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
+hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
+" hi CursorLineNr term=bold cterm=bold ctermfg=67 gui=bold guifg=black
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi NonText
-hi Normal term=NONE cterm=NONE ctermfg=0 ctermbg=231 gui=NONE guifg=black guibg=white
+hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=white
 hi Pmenu term=NONE cterm=NONE ctermbg=230 gui=NONE guibg=#FFFFE1
-hi PmenuSel term=NONE cterm=NONE ctermfg=0 ctermbg=153 gui=NONE guifg=black guibg=#CDE8FF
+hi PmenuSel term=NONE cterm=NONE ctermfg=16 ctermbg=153 gui=NONE guifg=black guibg=#CDE8FF
 hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
 hi PmenuThumb term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
@@ -111,7 +112,7 @@ hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
 " hi SpecialKey
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=Red
-hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=Blue
+hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=#0000C0
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
 hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
 hi StatusLine term=bold cterm=bold ctermbg=67 ctermfg=231 gui=bold guibg=#4D7A97 guifg=white
@@ -124,9 +125,9 @@ hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=w
 " hi Terminal
 hi Title term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi Visual term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
-hi VisualNOS term=bold,underline cterm=bold,underline ctermfg=0 gui=bold,underline
+hi VisualNOS term=bold,underline cterm=bold,underline ctermfg=16 gui=bold,underline
 hi WarningMsg term=NONE cterm=NONE ctermfg=196 gui=NONE guifg=Red
-hi WildMenu term=NONE cterm=NONE ctermfg=0 ctermbg=226
+hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 
 " hi Scrollbar
 " hi Menu
@@ -135,7 +136,7 @@ hi WildMenu term=NONE cterm=NONE ctermfg=0 ctermbg=226
 " NERDTree
 """"""""""""""""""""""
 
-hi NERDTreeUp term=NONE cterm=NONE ctermfg=4 ctermbg=229 gui=NONE guifg=Blue guibg=#fafabb
+hi NERDTreeUp term=NONE cterm=NONE ctermfg=19 ctermbg=229 gui=NONE guifg=#0000C0 guibg=#fafabb
 hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
 
 """"""""""""""""""""""

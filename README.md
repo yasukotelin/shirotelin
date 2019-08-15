@@ -2,7 +2,7 @@
 
 <p align="center">shirotelin is New Classical light colorscheme for Vim and GVim!</p>
 
-Ultimate standard light color scheme is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
+Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
 <table>
     <tr>
@@ -41,7 +41,11 @@ Plug 'yasukotelin/shirotelin'
 call dein#add('yasukotelin/shirotelin')
 ```
 
+**Manual Install**
+
 If you want to manual install, you download `colors/shirotelin.vim` and puts on your `~/.vim/colors` directory.
+
+## Settings
 
 Write to your `.vimrc`.
 
@@ -49,8 +53,6 @@ Write to your `.vimrc`.
 colorscheme shirotelin
 set background=light
 ```
-
-## Settings
 
 ### Underline
 
@@ -71,6 +73,14 @@ set nocursorline
 ```
 
 ## Screenshots
+
+**Cursor Number**
+
+If you set `set cursorline`, you can see the highlighted number cursor.
+
+<img src="images/shirotelin-numver-cursor.gif">
+
+---
 
 **Search**
 
