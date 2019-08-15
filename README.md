@@ -6,22 +6,16 @@ Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepa
 
 <table>
     <tr>
-        <th>GVim(Windows)</th>
+        <th>GVim (Windows)</th>
     </tr>
     <tr>
         <td><img src="images/main-title.png"></td>
     </tr>
     <tr>
-        <th>Vim(on Mac)</th>
+        <th>Vim (PowerShell on Windows)</th>
     </tr>
     <tr>
-        <td><img src="images/mac.png"></td>
-    </tr>
-    <tr>
-        <th>Vim(PowerShell on Windows)</th>
-    </tr>
-    <tr>
-        <td><img src="images/with-powershell.gif"></td>
+        <td><img src="images/shirotelin-demo-powershell.gif"></td>
     </tr>
 </table>
 
@@ -82,6 +76,12 @@ If you set `set cursorline`, you can see the highlighted number cursor.
 
 ---
 
+**TODO**
+
+<img src="images/todo.png">
+
+---
+
 **Search**
 
 <img src="images/search.gif">
@@ -96,7 +96,7 @@ If you set `set cursorline`, you can see the highlighted number cursor.
 
 **diff**
 
-<img src="images/diff.png">
+<img src="images/diff-color.png">
 
 ---
 

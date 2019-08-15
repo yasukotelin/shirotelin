@@ -84,10 +84,10 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 hi clear CursorColumn
 hi CursorLine term=underline cterm=underline gui=underline guibg=NONE
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
-hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#D6F2C9
-hi DiffChange term=NONE cterm=NONE ctermbg=153 guibg=#CAD9FA
-hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#F2CBCB guifg=#F2CBCB
-hi DiffText term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#AEC4F5
+hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
+hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
+hi DiffDelete term=NONE cterm=NONE ctermbg=224 ctermfg=224 gui=NONE guibg=#FFC8C8 guifg=#FFC8C8
+hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#60FF87
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000C0
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=Red guibg=white
 hi VertSplit term=reverse cterm=reverse gui=reverse
@@ -97,7 +97,6 @@ hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
 hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
-" hi CursorLineNr term=bold cterm=bold ctermfg=67 gui=bold guifg=black
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
