@@ -1,0 +1,12 @@
+{
+    "key": "value",
+    "array": [
+        {
+            "key": "value"
+        },
+        {
+            "key": "value",
+            "key": "value"
+        }
+    ]
+}

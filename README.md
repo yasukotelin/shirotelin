@@ -100,6 +100,14 @@ If you set `set cursorline`, you can see the highlighted number cursor.
 
 ---
 
+**coc.nvim diagnostics hightlight**
+
+Error and Warning are highlighted. Info and Hint are not highlighted and only shown Singed.
+
+<img src="images/coc-nvim-diagnostics.png">
+
+---
+
 **Go**
 
 <img src="images/sample-go.png">

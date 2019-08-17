@@ -149,3 +149,24 @@ hi mkdCode term=bold cterm=bold ctermfg=17 gui=bold guifg=#000161
 hi mkdBold term=bold cterm=bold gui=bold
 
 hi lspReference term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#EEEEEE
+
+
+""""""""""""""""""""""
+" coc.nvim
+""""""""""""""""""""""
+
+hi link CocErrorSign Error
+hi link CocErrorHighlight Error
+hi CocErrorFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+
+hi CocWarningSign term=NONE cterm=NONE ctermfg=203 gui=NONE guifg=#ff5f5f
+hi CocWarningHighlight term=NONE cterm=NONE ctermbg=224 gui=NONE guibg=#ffd7d7
+hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+
+hi clear CocInfoSign
+hi clear CocInfoHighlight
+hi clear CocInfoFloat
+
+hi clear CocHintSign
+hi clear CocHintHighlight
+hi clear CocHintFloat
