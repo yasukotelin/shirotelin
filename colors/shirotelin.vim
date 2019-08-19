@@ -102,7 +102,7 @@ hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 " hi NonText
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=white
-hi Pmenu term=NONE cterm=NONE ctermbg=230 gui=NONE guibg=#FFFFE1
+hi Pmenu term=NONE cterm=NONE ctermbg=230 gui=NONE guibg=#FFFFD7
 hi PmenuSel term=NONE cterm=NONE ctermfg=16 ctermbg=153 gui=NONE guifg=black guibg=#CDE8FF
 hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
 hi PmenuThumb term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
@@ -159,14 +159,14 @@ hi link CocErrorSign Error
 hi link CocErrorHighlight Error
 hi CocErrorFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocWarningSign term=NONE cterm=NONE ctermfg=203 gui=NONE guifg=#ff5f5f
-hi CocWarningHighlight term=NONE cterm=NONE ctermbg=224 gui=NONE guibg=#ffd7d7
+hi CocWarningSign term=bold cterm=bold ctermfg=167 gui=bold guifg=#D75F5F
+hi CocWarningHighlight term=bold cterm=bold ctermbg=167 gui=bold guifg=#D75F5F
 hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi clear CocInfoSign
-hi clear CocInfoHighlight
-hi clear CocInfoFloat
+hi CocInfoSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+hi CocInfoHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
+hi CocInfoFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi clear CocHintSign
 hi clear CocHintHighlight
-hi clear CocHintFloat
+hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
