@@ -160,7 +160,7 @@ hi link CocErrorHighlight Error
 hi CocErrorFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocWarningSign term=bold cterm=bold ctermfg=167 gui=bold guifg=#D75F5F
-hi CocWarningHighlight term=bold cterm=bold ctermbg=167 gui=bold guifg=#D75F5F
+hi CocWarningHighlight term=bold cterm=bold ctermfg=167 gui=bold guifg=#D75F5F
 hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocInfoSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
