@@ -73,7 +73,7 @@ hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 gui=bold guifg=Red guibg=w
 hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#006300 guibg=#afd7af
 
 """"""""""""""""""""""
-" highlight groups
+" highlight-groups
 """"""""""""""""""""""
 
 " hi ColorColumn
@@ -100,14 +100,14 @@ hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
-" hi NonText
+hi NonText term=NONE cterm=NONE ctermfg=242 gui=NONE guifg=#6c6c6c
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=white
 hi Pmenu term=NONE cterm=NONE ctermbg=230 gui=NONE guibg=#FFFFD7
 hi PmenuSel term=NONE cterm=NONE ctermfg=16 ctermbg=153 gui=NONE guifg=black guibg=#CDE8FF
 hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
 hi PmenuThumb term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
-" hi QuickFixLine
+hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
 " hi SpecialKey
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=Red
@@ -118,9 +118,9 @@ hi StatusLine term=bold cterm=bold ctermbg=67 ctermfg=231 gui=bold guibg=#4D7A97
 hi StatusLineNC term=bold cterm=bold ctermbg=253 ctermfg=231 gui=bold guibg=#D9DEE4 guifg=white
 hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
 hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=white guibg=DarkGreen
-" hi TabLine
-" hi TabLineFill
-" hi TabLineSel
+hi TabLine term=NONE cterm=NONE ctermbg=254
+hi TabLineFill term=NONE cterm=NONE ctermbg=253
+hi TabLineSel term=NONE cterm=NONE ctermfg=16 ctermbg=231
 " hi Terminal
 hi Title term=bold cterm=bold ctermfg=89 gui=bold guifg=#7F0055
 hi Visual term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
