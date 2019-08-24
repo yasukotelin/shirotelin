@@ -1,21 +1,25 @@
 <h1 align="center">🎉 shirotelin 🎉</h1>
 
-<p align="center">shirotelin is New Classical light colorscheme for Vim and GVim!</p>
+<p align="center">shirotelin is New Classical light colorscheme for Vim, GVim and neovim!</p>
 
 Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
+
+Version2 Released! More classical color and easier to see😍
+
+Supports Windows, macOS and Linux!
 
 <table>
     <tr>
         <th>GVim (Windows)</th>
     </tr>
     <tr>
-        <td><img src="images/main-title.png"></td>
+        <td><img src="images/shirotelin-windows.png"></td>
     </tr>
     <tr>
-        <th>Vim (PowerShell on Windows)</th>
+        <th>Vim (WSL on Windows)</th>
     </tr>
     <tr>
-        <td><img src="images/shirotelin-demo-powershell.gif"></td>
+        <td><img src="images/shirotelin-on-wsl.gif"></td>
     </tr>
 </table>
 
@@ -88,15 +92,21 @@ If you set `set cursorline`, you can see the highlighted number cursor.
 
 ---
 
-**Completion**
+**Complete**
 
-<img src="images/complete.gif">
+<img src="images/shirotelin-demo-complete.gif">
 
 ---
 
 **diff**
 
 <img src="images/diff-color.png">
+
+---
+
+**vim-lsp diagnostics highlight**
+
+comming soon..
 
 ---
 
