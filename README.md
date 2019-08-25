@@ -16,10 +16,16 @@ Supports Windows, macOS and Linux!
         <td><img src="images/shirotelin-windows.png"></td>
     </tr>
     <tr>
-        <th>Vim (WSL on Windows)</th>
+        <th>Vim (on macOS)</th>
     </tr>
     <tr>
-        <td><img src="images/shirotelin-on-wsl.gif"></td>
+        <th><img src="images/shirotelin-on-macos.png"></th>
+    </tr>
+    <tr>
+        <th>Vim (on Linux - Raspbian)</th>
+    </tr>
+    <tr>
+        <th><img src="images/shirotelin-on-raspberypi.png"></th>
     </tr>
 </table>
 

@@ -131,6 +131,7 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 " hi Scrollbar
 " hi Menu
 
+
 """"""""""""""""""""""
 " NERDTree
 """"""""""""""""""""""
