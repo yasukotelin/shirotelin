@@ -82,7 +82,7 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
 " hi CursorIM
 hi clear CursorColumn
-hi CursorLine term=underline cterm=underline gui=underline guibg=NONE
+hi CursorLine term=NONE cterm=NONE gui=NONE guibg=#FFFFD7
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
 hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
 hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
@@ -130,7 +130,6 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 
 " hi Scrollbar
 " hi Menu
-
 
 """"""""""""""""""""""
 " NERDTree
