@@ -159,14 +159,15 @@ hi link CocErrorSign Error
 hi link CocErrorHighlight Error
 hi CocErrorFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocWarningSign term=bold cterm=bold ctermfg=167 gui=bold guifg=#D75F5F
-hi CocWarningHighlight term=bold cterm=bold ctermfg=167 gui=bold guifg=#D75F5F
+hi CocWarningSign term=bold cterm=bold ctermfg=201 gui=bold guifg=#FF00AF
+hi CocWarningHighlight term=bold cterm=bold ctermfg=201 gui=bold guifg=#FF00FF
 hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocInfoSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
-hi CocInfoHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
+hi CocInfoHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guifg=#b2b2b2
 hi CocInfoFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi clear CocHintSign
-hi clear CocHintHighlight
+hi CocHintSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+hi CocHintHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
 hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+
