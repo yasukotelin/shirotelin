@@ -164,7 +164,7 @@ hi CocWarningHighlight term=bold cterm=bold ctermfg=201 gui=bold guifg=#FF00FF
 hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocInfoSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
-hi CocInfoHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guifg=#b2b2b2
+hi CocInfoHighlight term=NONE cterm=NONE ctermbg=247 gui=NONE guifg=#9e9e9e
 hi CocInfoFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocHintSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
