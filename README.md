@@ -1,6 +1,6 @@
 <h1 align="center">🎉 shirotelin 🎉</h1>
 
-<p align="center">shirotelin is New Classical light colorscheme for Vim, GVim and neovim!</p>
+<p align="center">shirotelin is Ultimate standard New Classical light colorscheme for Vim, GVim and neovim!</p>
 
 Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
@@ -8,12 +8,14 @@ Version2 Released! More classical color and easier to see😍
 
 Supports Windows, macOS and Linux!
 
+Supported CUI / GUI🔥
+
 <table>
     <tr>
         <th>GVim (Windows)</th>
     </tr>
     <tr>
-        <td><img src="images/shirotelin-windows.png"></td>
+        <td><img src="images/shirotelin-on-windows.png"></td>
     </tr>
     <tr>
         <th>Vim (on macOS)</th>
@@ -25,7 +27,7 @@ Supports Windows, macOS and Linux!
         <th>Vim (on Linux - Raspbian)</th>
     </tr>
     <tr>
-        <th><img src="images/shirotelin-on-raspberypi.png"></th>
+        <th><img src="images/shirotelin-on-linux.png"></th>
     </tr>
 </table>
 
@@ -58,82 +60,52 @@ colorscheme shirotelin
 set background=light
 ```
 
-### Underline
+## Features
 
-<img src="images/underline.png" alt="underline">
+### Cursorline
 
-Write this to your `.vimrc`
+If you write `set cursorline` on the .vimrc, you can see the highlighted cursor line.<br>
+When you don't need cursor line,  wirte `set nocursorline`.
 
-**Underline ON**
+<img src="images/shirotelin-cursorline.gif">
 
-```.vimrc
-set cursorline
-```
+### TODO
 
-**Underline OFF**
-
-```.vimrc
-set nocursorline
-```
-
-## Screenshots
-
-**Cursor Number**
-
-If you set `set cursorline`, you can see the highlighted number cursor.
-
-<img src="images/shirotelin-numver-cursor.gif">
-
----
-
-**TODO**
+TODO is highlighted with background Green.
 
 <img src="images/todo.png">
 
----
+### Search
 
-**Search**
+<img src="images/shirotelin-search.gif">
 
-<img src="images/search.gif">
+### Complete
 
----
+Complete and popup are simple and classical color 😍
 
-**Complete**
+<img src="images/shirotelin-complete.gif">
 
-<img src="images/shirotelin-demo-complete.gif">
+### Diff
 
----
+Supported diff color 🤷‍♂️
 
-**diff**
+<img src="images/shirotelin-diff.png">
 
-<img src="images/diff-color.png">
+## Features for Plugins
 
----
+I add colors for plugins actively.
 
-**vim-lsp diagnostics highlight**
-
-comming soon..
-
----
-
-**coc.nvim diagnostics hightlight**
+## coc.nvim
 
 Supported for diagnostics in [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
-Error and Warning are highlighted. Info and Hint are not highlighted and only shown Singed.
 
-<img src="images/coc.nvim.png">
+Ex) Error color
 
----
+<img src="images/shirotelin-coc-nvim-error.png">
 
-**Go**
+Ex) Info color
 
-<img src="images/sample-go.png">
-
----
-
-**HTML**
-
-<img src="images/sample-html.png">
+<img src="images/shirotelin-coc-nvim-info.png">
 
 ---
 
@@ -141,8 +113,4 @@ Error and Warning are highlighted. Info and Hint are not highlighted and only sh
 
 <img src="images/NERDTree.png">
 
----
 
-**vim-plug**
-
-<img src="images/vim-plug.png">
