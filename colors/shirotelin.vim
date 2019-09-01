@@ -135,8 +135,9 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 " NERDTree
 """"""""""""""""""""""
 
-hi NERDTreeUp term=NONE cterm=NONE ctermfg=19 ctermbg=229 gui=NONE guifg=#0000C0 guibg=#fafabb
+hi NERDTreeUp term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#000161
+hi NERDTreeHelp term=bold cterm=bold ctermfg=127 gui=bold guifg=#9425a8
 
 """"""""""""""""""""""
 " Markdown

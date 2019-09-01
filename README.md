@@ -31,6 +31,12 @@ Supported CUI / GUI🔥
     </tr>
 </table>
 
+## Supported Plugins⛏
+
+- [✔] NERDTree https://github.com/scrooloose/nerdtree
+- [✔] Markdown https://github.com/plasticboy/vim-markdown
+- [✔] coc.nvim https://github.com/neoclide/coc.nvim
+
 ## Install
 
 If you use any vim plugin manager, refer to the following.
