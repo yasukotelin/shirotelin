@@ -103,20 +103,21 @@ I add colors for plugins actively.
 
 ## coc.nvim
 
-Supported for diagnostics in [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
+Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
+
+- [✔] Error colors
+- [✔] Warning colors
+- [✔] Info colros
+- [✔] Hint colors
+- [✔] Highlight Text
 
 Ex) Error color
 
 <img src="images/shirotelin-coc-nvim-error.png">
 
-Ex) Info color
 
-<img src="images/shirotelin-coc-nvim-info.png">
+## NERDTree
 
----
-
-**NERDTree**
-
-<img src="images/NERDTree.png">
+<img src="images/shirotelin-nerdtree.png">
 
 
