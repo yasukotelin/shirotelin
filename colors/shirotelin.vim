@@ -160,8 +160,8 @@ hi link CocErrorSign Error
 hi link CocErrorHighlight Error
 hi CocErrorFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocWarningSign term=bold cterm=bold ctermfg=201 gui=bold guifg=#FF00AF
-hi CocWarningHighlight term=bold cterm=bold ctermfg=201 gui=bold guifg=#FF00FF
+hi CocWarningSign term=bold cterm=bold ctermfg=201 gui=bold guifg=#AF5F00
+hi CocWarningHighlight term=bold cterm=bold ctermfg=201 gui=bold guifg=#AF5F00
 hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocInfoSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
@@ -172,4 +172,5 @@ hi CocHintSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 hi CocHintHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
 hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocHighlightText term=NONE cterm=NONE ctermfg=254 gui=NONE guibg=#e4e4e4
+hi CocHighlightText term=NONE cterm=NONE ctermfg=255 gui=NONE guibg=#eeeeee
+

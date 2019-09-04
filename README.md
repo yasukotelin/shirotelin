@@ -111,9 +111,7 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 - [✔] Hint colors
 - [✔] Highlight Text
 
-Ex) Error color
-
-<img src="images/shirotelin-coc-nvim-error.png">
+<img src="images/shirotelin-coc-demo.gif">
 
 
 ## NERDTree
