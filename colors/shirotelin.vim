@@ -100,7 +100,7 @@ hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
-hi NonText term=NONE cterm=NONE ctermfg=242 gui=NONE guifg=#6c6c6c
+hi NonText term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6c6c6c guibg=NONE
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=white
 hi Pmenu term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#e4e4e4
 hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=white guibg=#5f87af
@@ -173,4 +173,3 @@ hi CocHintHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
 hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi CocHighlightText term=NONE cterm=NONE ctermfg=255 gui=NONE guibg=#eeeeee
-
