@@ -172,4 +172,4 @@ hi CocHintSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 hi CocHintHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
 hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocHighlightText term=NONE cterm=NONE ctermfg=255 gui=NONE guibg=#eeeeee
+hi CocHighlightText term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#eeeeee
