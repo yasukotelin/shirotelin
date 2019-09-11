@@ -110,6 +110,7 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 - [✔] Info colros
 - [✔] Hint colors
 - [✔] Highlight Text
+- [✔] CocFloating
 
 <img src="images/shirotelin-coc-demo.gif">
 
