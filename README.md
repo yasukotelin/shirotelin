@@ -114,6 +114,9 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 
 <img src="images/shirotelin-coc-demo.gif">
 
+## Markdown
+
+<img src="./images/shirotelin-markdown.png">
 
 ## NERDTree
 
