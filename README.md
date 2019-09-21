@@ -36,6 +36,7 @@ Supported CUI / GUI🔥
 - [✔] NERDTree https://github.com/scrooloose/nerdtree
 - [✔] Markdown https://github.com/plasticboy/vim-markdown
 - [✔] coc.nvim https://github.com/neoclide/coc.nvim
+- [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
 
 ## Install
 
@@ -112,14 +113,16 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 - [✔] Highlight Text
 - [✔] CocFloating
 
-<img src="images/shirotelin-coc-demo.gif">
+<img src="images/shirotelin-coc-demo.gif" alt="shirotelin for coc.nvim">
 
 ## Markdown
 
-<img src="./images/shirotelin-markdown.png">
+<img src="./images/shirotelin-markdown.png" alt="shirotelin for Markdown">
 
 ## NERDTree
 
-<img src="images/shirotelin-nerdtree.png">
+<img src="images/shirotelin-nerdtree.png" alt="shirotelin for NERDTree">
 
+## dart-vim-plugin
 
+<img src="images/shirotelin-dart-vim-plugin.png" alt="shirotelin for dar-vim-plugin">

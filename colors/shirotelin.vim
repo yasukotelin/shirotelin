@@ -179,4 +179,4 @@ hi CocFloating term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#ffffaf
 " dart-vim-plugin
 """"""""""""""""""""""
 
-hi dartTypeName term=bold cterm=bold ctermfg=24 gui=bold guifg=#005F87
+hi dartTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
