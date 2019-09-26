@@ -33,9 +33,10 @@ Supported CUI / GUI🔥
 
 ## Supported Plugins⛏
 
-- [✔] NERDTree https://github.com/scrooloose/nerdtree
-- [✔] Markdown https://github.com/plasticboy/vim-markdown
 - [✔] coc.nvim https://github.com/neoclide/coc.nvim
+- [✔] Markdown https://github.com/plasticboy/vim-markdown
+- [✔] NERDTree https://github.com/scrooloose/nerdtree
+- [✔] NERDTree + vim-devicons https://github.com/ryanoasis/vim-devicons
 - [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
 
 ## Install
@@ -122,6 +123,10 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 ## NERDTree
 
 <img src="images/shirotelin-nerd-tree.png" alt="shirotelin for NERDTree">
+
+### with vim-devicons
+
+<img src="images/shirotelin-nerd-tree-with-vim-devicons.png" alt="shirotelin for NERDTree with vim-devicons">
 
 ## dart-vim-plugin
 
