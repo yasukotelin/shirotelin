@@ -1,4 +1,4 @@
-"
+
 "   .-')    ('-. .-.         _  .-')                .-') _     ('-.                        .-') _  
 "  ( OO ). ( OO )  /        ( \( -O )              (  OO) )  _(  OO)                      ( OO ) ) 
 " (_)---\_),--. ,--.  ,-.-') ,------.  .-'),-----. /     '._(,------.,--.      ,-.-') ,--./ ,--,'  
@@ -138,6 +138,7 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 hi NERDTreeUp term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005f
 hi NERDTreeHelp term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
+" hi NERDTreeFlags term=NONE cterm=NONE gui=NONE guifg=#FFD75F
 
 
 """"""""""""""""""""""
