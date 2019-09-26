@@ -121,7 +121,7 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 
 ## NERDTree
 
-<img src="images/shirotelin-nerdtree.png" alt="shirotelin for NERDTree">
+<img src="images/shirotelin-nerd-tree.png" alt="shirotelin for NERDTree">
 
 ## dart-vim-plugin
 
