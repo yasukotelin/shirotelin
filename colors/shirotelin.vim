@@ -76,7 +76,7 @@ hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#005F00 guibg
 " highlight-groups
 """"""""""""""""""""""
 
-" hi ColorColumn
+" hi ColorColumnF
 hi Conceal term=NONE cterm=NONE ctermfg=253 ctermbg=246 guifg=LightGrey guibg=DarkGrey
 hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
@@ -91,8 +91,8 @@ hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#60FF87
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000af
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=#FF0000 guibg=#FFFFFF
 hi VertSplit term=reverse cterm=reverse gui=reverse
-hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=LightGrey
-hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
+hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 gui=NONE guifg=#00005F guibg=#DADADA
+hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 gui=NONE guifg=#00005F guibg=#A8A8A8
 hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
@@ -102,7 +102,7 @@ hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi NonText term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6c6c6c guibg=NONE
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#FFFFFF
-hi Pmenu term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#e4e4e4
+hi Pmenu term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#E4E4E4
 hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=#FFFFFF guibg=#5f87af
 hi PmenuSbar term=NONE cterm=NONE ctermbg=254 gui=NONE guibg=#F5F4EF
 hi PmenuThumb term=NONE cterm=NONE ctermbg=249 gui=NONE guibg=#b2b2b2
