@@ -76,7 +76,7 @@ hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#005F00 guibg
 " highlight-groups
 """"""""""""""""""""""
 
-" hi ColorColumn
+" hi ColorColumnF
 hi Conceal term=NONE cterm=NONE ctermfg=253 ctermbg=246 guifg=LightGrey guibg=DarkGrey
 hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
@@ -91,8 +91,8 @@ hi DiffText term=NONE cterm=NONE ctermbg=84 gui=NONE guibg=#60FF87
 hi EndOfBuffer term=NONE cterm=NONE ctermfg=19 gui=NONE guifg=#0000af
 hi ErrorMsg term=NONE cterm=NONE ctermfg=196 ctermbg=231 gui=NONE guifg=#FF0000 guibg=#FFFFFF
 hi VertSplit term=reverse cterm=reverse gui=reverse
-hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 guifg=DarkBlue guibg=LightGrey
-hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 guifg=DarkBlue guibg=Grey
+hi Folded term=NONE cterm=NONE ctermfg=17 ctermbg=253 gui=NONE guifg=#00005F guibg=#DADADA
+hi FoldColumn term=NONE cterm=NONE ctermfg=17 ctermbg=248 gui=NONE guifg=#00005F guibg=#A8A8A8
 hi clear SignColumn
 hi IncSearch term=NONE cterm=NONE ctermbg=187 gui=NONE guibg=#cfcca3
 hi LineNr term=NONE cterm=NONE ctermfg=240 gui=NONE guifg=#545454
@@ -138,7 +138,7 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 hi NERDTreeUp term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005f
 hi NERDTreeHelp term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
-hi NERDTreeFlags term=NONE cterm=NONE gui=NONE guifg=#FFD75F
+hi NERDTreeFlags term=NONE cterm=NONE ctermfg=221 gui=NONE guifg=#FFD75F
 
 
 """"""""""""""""""""""
