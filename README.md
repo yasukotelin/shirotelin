@@ -103,7 +103,7 @@ Supported diff color 🤷‍♂️
 
 I add colors for plugins actively.
 
-## coc.nvim
+### coc.nvim
 
 Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 
@@ -116,18 +116,26 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 
 <img src="images/shirotelin-coc-demo.gif" alt="shirotelin for coc.nvim">
 
-## Markdown
+### Markdown
 
 <img src="./images/shirotelin-markdown.png" alt="shirotelin for Markdown">
 
-## NERDTree
+### NERDTree
 
 <img src="images/shirotelin-nerd-tree.png" alt="shirotelin for NERDTree">
 
-### with vim-devicons
+#### with vim-devicons
 
 <img src="images/shirotelin-nerd-tree-with-vim-devicons.png" alt="shirotelin for NERDTree with vim-devicons">
 
-## dart-vim-plugin
+### dart-vim-plugin
 
 <img src="images/shirotelin-dart-vim-plugin.png" alt="shirotelin for dar-vim-plugin">
+
+## Licence
+
+MIT Licence
+
+## Author
+
+yasukotelin
