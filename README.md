@@ -2,9 +2,10 @@
 
 <p align="center">shirotelin is Ultimate standard New Classical light colorscheme for Vim, GVim and neovim!</p>
 
-Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
+- [for Visual Studio Code version](https://github.com/yasukotelin/shirotelin-vscode)
+- [for JetBrains IDE version](https://github.com/yasukotelin/shirotelin-intellij)
 
-Version2 Released! More classical color and easier to see😍
+Ultimate standard light color scheme "shirotelin" is inspired by Eclipse, notepad++, InteliJ, Visual Studio, Hidemaru editor, sakura editor, and more⚡
 
 Supports Windows, macOS and Linux!
 
@@ -98,6 +99,12 @@ Complete and popup are simple and classical color 😍
 Supported diff color 🤷‍♂️
 
 <img src="images/shirotelin-diff.png">
+
+### Terminal
+
+Vim8 Terminal window color is black base.
+
+<img src="./images/shirotelin-terminal.png" alt="shirotelin terminal">
 
 ## Features for Plugins
 
