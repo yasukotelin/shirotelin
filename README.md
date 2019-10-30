@@ -1,6 +1,6 @@
 <h1 align="center">🎉 shirotelin 🎉</h1>
 
-<p align="center">shirotelin is Ultimate standard New Classical light colorscheme for Vim, GVim and neovim!</p>
+<p align="center">shirotelin is Ultimate standard New Classical light colorscheme for Vim, GVim and Neovim!</p>
 
 - [for Visual Studio Code version](https://github.com/yasukotelin/shirotelin-vscode)
 - [for JetBrains IDE version](https://github.com/yasukotelin/shirotelin-intellij)
@@ -34,11 +34,12 @@ Supported CUI / GUI🔥
 
 ## Supported Plugins⛏
 
-- [✔] coc.nvim https://github.com/neoclide/coc.nvim
 - [✔] Markdown https://github.com/plasticboy/vim-markdown
 - [✔] NERDTree https://github.com/scrooloose/nerdtree
 - [✔] NERDTree + vim-devicons https://github.com/ryanoasis/vim-devicons
 - [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
+- [✔] coc.nvim https://github.com/neoclide/coc.nvim
+- [✔] coc-flutter https://www.npmjs.com/package/coc-flutter
 
 ## Install
 
@@ -110,19 +111,6 @@ Vim8 Terminal window color is black base.
 
 I add colors for plugins actively.
 
-### coc.nvim
-
-Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
-
-- [✔] Error colors
-- [✔] Warning colors
-- [✔] Info colros
-- [✔] Hint colors
-- [✔] Highlight Text
-- [✔] CocFloating
-
-<img src="images/shirotelin-coc-demo.gif" alt="shirotelin for coc.nvim">
-
 ### Markdown
 
 <img src="./images/shirotelin-markdown.png" alt="shirotelin for Markdown">
@@ -138,6 +126,27 @@ Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
 ### dart-vim-plugin
 
 <img src="images/shirotelin-dart-vim-plugin.png" alt="shirotelin for dar-vim-plugin">
+
+### coc.nvim
+
+Supported for [coc.nvim](https://github.com/neoclide/coc.nvim).<br>
+
+- [✔] Error colors
+- [✔] Warning colors
+- [✔] Info colros
+- [✔] Hint colors
+- [✔] Highlight Text
+- [✔] CocFloating
+
+<img src="images/shirotelin-coc-demo.gif" alt="shirotelin for coc.nvim">
+
+### coc-flutter
+
+Supported for Closing Label on the [coc-flutter](https://www.npmjs.com/package/coc-flutter)
+
+> **NOTE** Closing Label is supported on only Neovim.
+
+![](./images/coc-flutter-closinglabel.png)
 
 ## Licence
 

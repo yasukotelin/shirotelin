@@ -178,7 +178,14 @@ hi CocHighlightText term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#eeeeee
 hi CocFloating term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#ffffaf
 
 """"""""""""""""""""""
+" coc-flutter
+""""""""""""""""""""""
+
+hi FlutterClosingLabel term=NONE cterm=NONE ctermfg=146 gui=NONE guifg=#AFAFD7
+
+""""""""""""""""""""""
 " dart-vim-plugin
 """"""""""""""""""""""
 
 hi dartTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
+
