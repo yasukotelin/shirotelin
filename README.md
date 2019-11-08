@@ -40,6 +40,7 @@ Supported CUI / GUI🔥
 - [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
 - [✔] coc.nvim https://github.com/neoclide/coc.nvim
 - [✔] coc-flutter https://www.npmjs.com/package/coc-flutter
+- [✔] vim-go https://github.com/fatih/vim-go
 
 ## Install
 
@@ -147,6 +148,14 @@ Supported for Closing Label on the [coc-flutter](https://www.npmjs.com/package/c
 > **NOTE** Closing Label is supported on only Neovim.
 
 ![](./images/coc-flutter-closinglabel.png)
+
+### vim-go
+
+Supported for [vim-go](https://github.com/fatih/vim-go)
+
+> **NOTE** vim-go default config is a less highlited. If you want to more highlight, you can refer vim-go WIKI pages and setting them.
+
+![](./images/shirotelin-vim-go.png)
 
 ## Licence
 
