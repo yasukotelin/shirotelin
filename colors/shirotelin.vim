@@ -189,3 +189,9 @@ hi FlutterClosingLabel term=NONE cterm=NONE ctermfg=146 gui=NONE guifg=#AFAFD7
 
 hi dartTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
 
+""""""""""""""""""""""
+" vim-go
+""""""""""""""""""""""
+
+hi goTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
+hi goReceiverType term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
