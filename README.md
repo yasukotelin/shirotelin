@@ -16,19 +16,7 @@ Supported CUI / GUI🔥
         <th>GVim (Windows)</th>
     </tr>
     <tr>
-        <td><img src="images/shirotelin-on-windows.png"></td>
-    </tr>
-    <tr>
-        <th>Vim (on macOS)</th>
-    </tr>
-    <tr>
-        <th><img src="images/shirotelin-on-macos.png"></th>
-    </tr>
-    <tr>
-        <th>Vim (on Linux - Raspbian)</th>
-    </tr>
-    <tr>
-        <th><img src="images/shirotelin-on-linux.png"></th>
+        <td><img src="images/shirotelin-windows-gvim.png"></td>
     </tr>
 </table>
 
