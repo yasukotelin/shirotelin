@@ -82,7 +82,7 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
 " hi CursorIM
 hi clear CursorColumn
-hi CursorLine term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#EEEEEE
+hi CursorLine term=underline cterm=underline gui=underline
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005f
 hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
 hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
