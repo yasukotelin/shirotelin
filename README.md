@@ -20,10 +20,11 @@
 Supports Windows, macOS and Linux!
 Supported CUI / GUI🔥
 
-## Other platform!
+## shirotelin family!
 
-- [for JetBrains IDE version](https://github.com/yasukotelin/shirotelin-intellij)
-- [for Visual Studio Code version](https://github.com/yasukotelin/shirotelin-vscode)
+- [for Terminal.app](https://github.com/yasukotelin/shirotelin-terminal-app)
+- [for JetBrains IDE](https://github.com/yasukotelin/shirotelin-intellij)
+- [for Visual Studio Code](https://github.com/yasukotelin/shirotelin-vscode)
 
 ## Supported Plugins Color⛏
 
