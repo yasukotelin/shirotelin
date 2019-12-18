@@ -1,5 +1,0 @@
-[alias]
-    tree = log --graph --all --pretty=format:'%C(blue)%h%Creset -%C(magenta)%d%Creset %s %C(yellow)(%cd) %C(cyan)<%an>%Creset' --abbrev-commit --date=short
-[user]
-    name = yasukotelin
-    email = yasukotelin@gmail.com

@@ -140,6 +140,11 @@ hi NERDTreeDirSlash term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005f
 hi NERDTreeHelp term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi NERDTreeFlags term=NONE cterm=NONE ctermfg=221 gui=NONE guifg=#FFD75F
 
+""""""""""""""""""""""
+" HTML
+""""""""""""""""""""""
+
+hi htmlArg term=bold cterm=bold ctermfg=95 gui=bold guifg=#875f5f
 
 """"""""""""""""""""""
 " Markdown
