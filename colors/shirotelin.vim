@@ -150,6 +150,15 @@ hi htmlArg term=bold cterm=bold ctermfg=95 gui=bold guifg=#875f5f
 " Markdown
 """"""""""""""""""""""
 
+hi markdownHeadingDelimiter term=bold cterm=bold ctermfg=89 gui=bold guifg=#87005f
+hi markdownCodeDelimiter term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005F
+hi markdownCode term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005F
+hi link markdownLinkText String
+hi link markdownUrl Underlined
+hi link markdownListMarker Identifier
+hi link markdownOrderedListMarker Identifier
+hi markdownBlockquote term=bold cterm=bold ctermfg=22 gui=bold guifg=#005F00
+
 hi mkdHeading term=bold cterm=bold ctermfg=89 gui=bold guifg=#87005f
 hi mkdCodeStart term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi mkdCodeEnd term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
@@ -157,7 +166,6 @@ hi mkdCode term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi mkdBold term=bold cterm=bold gui=bold
 
 hi lspReference term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#EEEEEE
-
 
 """"""""""""""""""""""
 " coc.nvim
