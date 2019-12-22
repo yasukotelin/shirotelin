@@ -144,7 +144,7 @@ hi NERDTreeFlags term=NONE cterm=NONE ctermfg=221 gui=NONE guifg=#FFD75F
 " HTML
 """"""""""""""""""""""
 
-hi htmlArg term=bold cterm=bold ctermfg=95 gui=bold guifg=#875f5f
+hi htmlArg term=bold cterm=bold ctermfg=96 gui=bold guifg=#875f87
 
 """"""""""""""""""""""
 " Markdown
