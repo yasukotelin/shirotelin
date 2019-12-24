@@ -82,7 +82,7 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
 " hi CursorIM
 hi clear CursorColumn
-hi CursorLine term=underline cterm=underline gui=underline
+hi CursorLine term=underline cterm=underline ctermbg=NONE gui=underline guibg=NONE
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005f
 hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
 hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
@@ -116,12 +116,12 @@ hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Mag
 hi SpellRare term=underline cterm=underline ctermbg=115 gui=undercurl guibg=DarkCyan
 hi StatusLine term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#000087 guifg=#FFFFFF
 hi StatusLineNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8a8a guifg=#FFFFFF
-hi StatusLineTerm term=bold cterm=bold ctermfg=231 ctermbg=28 gui=bold guifg=#FFFFFF guibg=DarkGreen
-hi StatusLineTermNC term=bold cterm=bold ctermfg=254 ctermbg=28 gui=bold guifg=#FFFFFF guibg=DarkGreen
+hi StatusLineTerm term=bold cterm=bold ctermbg=18 ctermfg=231 gui=bold guibg=#000087 guifg=#FFFFFF
+hi StatusLineTermNC term=bold cterm=bold ctermbg=245 ctermfg=231 gui=bold guibg=#8a8a8a guifg=#FFFFFF
 hi TabLine term=NONE cterm=NONE ctermbg=254
 hi TabLineFill term=NONE cterm=NONE ctermbg=253
 hi TabLineSel term=NONE cterm=NONE ctermfg=16 ctermbg=231
-hi Terminal ctermbg=16 ctermfg=231 guibg=#000000 guifg=#FFFFFF
+hi Terminal ctermbg=231 ctermfg=16 guibg=#FFFFFF guifg=#000000
 hi Title term=bold cterm=bold ctermfg=89 gui=bold guifg=#87005f
 hi Visual term=NONE cterm=NONE ctermbg=153 gui=NONE guibg=#CDE8FF
 hi VisualNOS term=bold,underline cterm=bold,underline ctermfg=16 gui=bold,underline
