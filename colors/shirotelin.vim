@@ -21,7 +21,6 @@ endif
 set t_Co=256
 let g:colors_name = "shirotelin"
 
-
 """"""""""""""""""""""
 " group-name
 """"""""""""""""""""""
@@ -71,6 +70,8 @@ hi Ignore term=NONE cterm=NONE ctermfg=231 gui=NONE guifg=bg
 hi Error term=bold cterm=bold ctermfg=196 ctermbg=231 gui=bold guifg=#FF0000 guibg=#FFFFFF
 
 hi Todo term=bold cterm=bold ctermfg=22 ctermbg=151 gui=bold guifg=#005F00 guibg=#afd7af
+
+hi ClassName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
 
 """"""""""""""""""""""
 " highlight-groups
@@ -200,11 +201,34 @@ hi FlutterClosingLabel term=NONE cterm=NONE ctermfg=146 gui=NONE guifg=#AFAFD7
 " dart-vim-plugin
 """"""""""""""""""""""
 
-hi dartTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
+hi link dartTypeName ClassName
 
 """"""""""""""""""""""
 " vim-go
 """"""""""""""""""""""
 
-hi goTypeName term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
-hi goReceiverType term=bold cterm=bold ctermfg=23 gui=bold guifg=#005f5f
+hi link goTypeName ClassName
+hi link goReceiverType ClassName
+
+""""""""""""""""""""""
+" TypeScript
+""""""""""""""""""""""
+
+hi link typescriptImport Include
+hi link typescriptCastKeyword Keyword
+hi link typescriptClassName ClassName
+hi link typescriptTypeReference ClassName
+hi link typescriptExport Keyword
+hi link typescriptIdentifier Identifier
+
+""""""""""""""""""""""
+" JSX
+""""""""""""""""""""""
+
+hi link jsxComponentName Statement
+hi link jsxTagName Statement
+hi link jsxAttrib htmlArg
+hi link jsxOpenPunct Function
+hi link jsxClosePunct Function
+hi link jsxCloseString Function
+hi link jsxBraces Function
