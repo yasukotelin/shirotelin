@@ -101,7 +101,7 @@ hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
-hi NonText term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6c6c6c guibg=NONE
+hi NonText term=NONE cterm=NONE ctermfg=251 ctermbg=NONE gui=NONE guifg=#C6C6C6 guibg=NONE
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#FFFFFF
 hi Pmenu term=NONE cterm=NONE ctermbg=254 ctermfg=16 gui=NONE guibg=#E4E4E4
 hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=#FFFFFF guibg=#5f87af
@@ -110,7 +110,7 @@ hi PmenuThumb term=NONE cterm=NONE ctermbg=240 gui=NONE guibg=#585858
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
-" hi SpecialKey
+hi SpecialKey term=NONE cterm=NONE ctermfg=254 ctermbg=NONE gui=NONE guifg=#E4E4E4 guibg=NONE
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=#FF0000
 hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=#0000af
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
