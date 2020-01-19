@@ -32,6 +32,7 @@ Supported CUI / GUI🔥
 - [✔] NERDTree https://github.com/scrooloose/nerdtree
 - [✔] NERDTree + vim-devicons https://github.com/ryanoasis/vim-devicons
 - [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
+- [✔] vim-lsp https://github.com/prabirshrestha/vim-lsp
 - [✔] coc.nvim https://github.com/neoclide/coc.nvim
 - [✔] coc-flutter https://www.npmjs.com/package/coc-flutter
 - [✔] vim-go https://github.com/fatih/vim-go

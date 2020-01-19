@@ -83,7 +83,7 @@ hi Cursor term=NONE cterm=NONE ctermfg=231 ctermbg=0 gui=NONE guifg=bg guibg=fg
 " hi lCursor
 " hi CursorIM
 hi clear CursorColumn
-hi CursorLine term=underline cterm=underline ctermbg=NONE gui=underline guibg=NONE
+hi CursorLine term=underline cterm=underline ctermfg=NONE ctermbg=NONE gui=underline guibg=NONE
 hi Directory term=NONE cterm=NONE ctermfg=17 gui=NONE guifg=#00005f
 hi DiffAdd term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
 hi DiffChange term=NONE cterm=NONE ctermbg=194 guibg=#C8FFC8
@@ -131,6 +131,9 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 
 " hi Scrollbar
 " hi Menu
+
+hi WarningHighlight cterm=NONE term=NONE ctermfg=NONE ctermbg=230 gui=NONE guifg=NONE guibg=#FFFFD7
+hi InformationHighlight term=NONE cterm=NONE ctermfg=247 gui=NONE guifg=#9e9e9e
 
 """"""""""""""""""""""
 " NERDTree
@@ -232,3 +235,22 @@ hi link jsxOpenPunct Function
 hi link jsxClosePunct Function
 hi link jsxCloseString Function
 hi link jsxBraces Function
+
+""""""""""""""""""""""
+" vim-lsp
+""""""""""""""""""""""
+
+hi link LspErrorText Error
+hi link LspErrorLine Error
+hi link LspErrorHighlight Error
+
+hi link LspWarningText WarningHighlight
+hi link LspWarningHighlight WarningHighlight
+
+hi link LspHintText WarningHighlight
+hi link LspHintHighlight WarningHighlight
+
+hi link LspInformationText Normal
+hi link LspInformationHighlight InformationHighlight
+
+highlight lspReference cterm=NONE term=NONE ctermfg=NONE ctermbg=189 guifg=NONE guibg=#D7D7FF
