@@ -241,7 +241,7 @@ hi link jsxBraces Function
 """"""""""""""""""""""
 
 hi link LspErrorText Error
-hi link LspErrorLine Error
+" hi link LspErrorLine Error
 hi link LspErrorHighlight Error
 
 hi link LspWarningText WarningHighlight
