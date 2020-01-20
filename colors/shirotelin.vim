@@ -135,6 +135,8 @@ hi WildMenu term=NONE cterm=NONE ctermfg=16 ctermbg=226
 hi WarningHighlight cterm=NONE term=NONE ctermfg=NONE ctermbg=230 gui=NONE guifg=NONE guibg=#FFFFD7
 hi InformationHighlight term=NONE cterm=NONE ctermfg=247 gui=NONE guifg=#9e9e9e
 
+hi ReferenceHighlight cterm=NONE term=NONE ctermfg=NONE ctermbg=189 guifg=NONE guibg=#D7D7FF
+
 """"""""""""""""""""""
 " NERDTree
 """"""""""""""""""""""
@@ -169,7 +171,6 @@ hi mkdCodeEnd term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi mkdCode term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi mkdBold term=bold cterm=bold gui=bold
 
-hi lspReference term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#EEEEEE
 
 """"""""""""""""""""""
 " coc.nvim
@@ -179,19 +180,19 @@ hi link CocErrorSign Error
 hi link CocErrorHighlight Error
 hi CocErrorFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocWarningSign term=bold cterm=bold ctermfg=201 gui=bold guifg=#AF5F00
-hi CocWarningHighlight term=bold cterm=bold ctermfg=201 gui=bold guifg=#AF5F00
+hi link CocWarningSign WarningHighlight
+hi link CocWarningHighlight WarningHighlight
 hi CocWarningFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocInfoSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
-hi CocInfoHighlight term=NONE cterm=NONE ctermfg=247 gui=NONE guifg=#9e9e9e
+hi link CocInfoSign Normal
+hi link CocInfoHighlight InformationHighlight
 hi CocInfoFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocHintSign term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
-hi CocHintHighlight term=NONE cterm=NONE ctermbg=189 gui=NONE guibg=#D7D7FF
+hi link CocHintSign WarningHighlight
+hi link CocHintHighlight WarningHighlight
 hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
-hi CocHighlightText term=NONE cterm=NONE ctermbg=255 gui=NONE guibg=#eeeeee
+hi link CocHighlightText ReferenceHighlight
 hi CocFloating term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#ffffaf
 
 """"""""""""""""""""""
@@ -253,4 +254,4 @@ hi link LspHintHighlight WarningHighlight
 hi link LspInformationText Normal
 hi link LspInformationHighlight InformationHighlight
 
-highlight lspReference cterm=NONE term=NONE ctermfg=NONE ctermbg=189 guifg=NONE guibg=#D7D7FF
+hi link lspReference ReferenceHighlight
