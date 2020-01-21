@@ -268,4 +268,4 @@ hi link ClapInput StatusLine
 hi link ClapQuery StatusLine
 hi link ClapCurrentSelection SelectLine
 hi link ClapMatches Identifier
-hi link ClapPreview FloatWindow
+hi ClapPreview term=NONE cterm=NONE ctermfg=NONE ctermbg=251 gui=NONE guifg=NONE guibg=#c6c6c6
