@@ -58,15 +58,38 @@ call dein#add('yasukotelin/shirotelin')
 
 If you want to manual install, you download `colors/shirotelin.vim` and puts on your `~/.vim/colors` directory.
 
-## Settings
-
-Write to your `.vimrc` or `init.vim`.
+Finally, Write to your `.vimrc` or `init.vim`.
 
 ```vimrc
 colorscheme shirotelin
 ```
 
-## Pickup Colors!
+## Settings
+
+If you want to show the Tab, white space, and EOL, you write a like below to `.vimrc` or `init.vim`.
+shirotelin shows nice them.
+
+```
+set list
+set listchars=tab:»-,eol:↲,extends:»,precedes:«,space:.
+```
+
+![](./images/shirotelin-listchar.png)
+
+If you want to show the cursorline, you write this.
+shirotelin's cursorline is underline.
+
+```
+set cursorline
+```
+
+You doesn't want to show the cursorline. You write this.
+
+```
+set nocursorline
+```
+
+## Screenshots
 
 ### Complete
 
