@@ -103,7 +103,7 @@ hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi NonText term=NONE cterm=NONE ctermfg=251 ctermbg=NONE gui=NONE guifg=#C6C6C6 guibg=NONE
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#FFFFFF
-hi Pmenu term=NONE cterm=NONE ctermbg=254 ctermfg=16 gui=NONE guibg=#E4E4E4
+hi Pmenu term=NONE cterm=NONE ctermbg=255 ctermfg=16 gui=NONE guibg=#EEEEEE
 hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=#FFFFFF guibg=#5f87af
 hi PmenuSbar term=NONE cterm=NONE ctermbg=250 gui=NONE guibg=#BCBCBC
 hi PmenuThumb term=NONE cterm=NONE ctermbg=240 gui=NONE guibg=#585858
@@ -136,6 +136,10 @@ hi WarningHighlight cterm=NONE term=NONE ctermfg=NONE ctermbg=230 gui=NONE guifg
 hi InformationHighlight term=NONE cterm=NONE ctermfg=247 gui=NONE guifg=#9e9e9e
 
 hi ReferenceHighlight cterm=NONE term=NONE ctermfg=NONE ctermbg=189 guifg=NONE guibg=#D7D7FF
+
+hi SelectLine term=NONE cterm=NONE ctermbg=227 ctermfg=16 gui=NONE guibg=#ffff80 guifg=#000000
+
+hi FloatWindow term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#ffffaf
 
 """"""""""""""""""""""
 " NERDTree
@@ -171,7 +175,6 @@ hi mkdCodeEnd term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi mkdCode term=bold cterm=bold ctermfg=17 gui=bold guifg=#00005f
 hi mkdBold term=bold cterm=bold gui=bold
 
-
 """"""""""""""""""""""
 " coc.nvim
 """"""""""""""""""""""
@@ -193,7 +196,7 @@ hi link CocHintHighlight WarningHighlight
 hi CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
 
 hi link CocHighlightText ReferenceHighlight
-hi CocFloating term=NONE cterm=NONE ctermbg=229 gui=NONE guibg=#ffffaf
+hi link CocFloating FloatWindow
 
 """"""""""""""""""""""
 " coc-flutter
@@ -242,7 +245,6 @@ hi link jsxBraces Function
 """"""""""""""""""""""
 
 hi link LspErrorText Error
-" hi link LspErrorLine Error
 hi link LspErrorHighlight Error
 
 hi link LspWarningText WarningHighlight
@@ -255,3 +257,15 @@ hi link LspInformationText Normal
 hi link LspInformationHighlight InformationHighlight
 
 hi link lspReference ReferenceHighlight
+
+""""""""""""""""""""""
+" vim-clap
+""""""""""""""""""""""
+
+hi link ClapDisplay Pmenu
+hi link ClapSpinner StatusLine
+hi link ClapInput StatusLine
+hi link ClapQuery StatusLine
+hi link ClapCurrentSelection SelectLine
+hi link ClapMatches Identifier
+hi ClapPreview term=NONE cterm=NONE ctermfg=NONE ctermbg=251 gui=NONE guifg=NONE guibg=#c6c6c6

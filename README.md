@@ -36,6 +36,7 @@ Supported CUI / GUI🔥
 - [✔] coc.nvim https://github.com/neoclide/coc.nvim
 - [✔] coc-flutter https://www.npmjs.com/package/coc-flutter
 - [✔] vim-go https://github.com/fatih/vim-go
+- [✔] vim-clap https://github.com/liuchengxu/vim-clap
 
 ## Install
 
@@ -135,6 +136,12 @@ Supported for [vim-go](https://github.com/fatih/vim-go)
 > **NOTE** vim-go default config is a less highlited. If you want to more highlight, you can refer vim-go WIKI pages and setting them.
 
 ![](./images/shirotelin-vim-go.png)
+
+### vim-clap
+
+Supported for [vim-clap](https://github.com/liuchengxu/vim-clap)
+
+![](./images/vim-clap.gif)
 
 ## Licence
 
