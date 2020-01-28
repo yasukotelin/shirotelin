@@ -110,7 +110,7 @@ hi PmenuThumb term=NONE cterm=NONE ctermbg=240 gui=NONE guibg=#585858
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
-hi SpecialKey term=NONE cterm=NONE ctermfg=255 ctermbg=NONE gui=NONE guifg=#EEEEEE guibg=NONE
+hi SpecialKey term=NONE cterm=NONE ctermfg=252 ctermbg=NONE gui=NONE guifg=#D0D0D0 guibg=NONE
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=#FF0000
 hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=#0000af
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
