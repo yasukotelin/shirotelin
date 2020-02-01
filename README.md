@@ -74,7 +74,7 @@ set list
 set listchars=tab:»-,eol:↲,extends:»,precedes:«,space:.
 ```
 
-![](./images/shirotelin-listchar.png)
+![](./images/shirotelin-list.png)
 
 If you want to show the cursorline, you write this.
 shirotelin's cursorline is underline.
@@ -164,7 +164,7 @@ Supported for [vim-go](https://github.com/fatih/vim-go)
 
 Supported for [vim-clap](https://github.com/liuchengxu/vim-clap)
 
-![](./images/vim-clap.gif)
+![](./images/vim-clap.png)
 
 ## Licence
 
