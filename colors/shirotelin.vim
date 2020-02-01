@@ -262,10 +262,23 @@ hi link lspReference ReferenceHighlight
 " vim-clap
 """"""""""""""""""""""
 
-hi link ClapDisplay Pmenu
 hi link ClapSpinner StatusLine
 hi link ClapInput StatusLine
+hi link ClapSearchText Normal
+hi link ClapDisplay Pmenu
 hi link ClapQuery StatusLine
 hi link ClapCurrentSelection SelectLine
 hi link ClapMatches Identifier
+hi ClapFuzzyMatches1 term=bold cterm=bold ctermfg=21 ctermbg=NONE
+hi ClapFuzzyMatches2 term=bold cterm=bold ctermfg=27 ctermbg=NONE
+hi ClapFuzzyMatches3 term=bold cterm=bold ctermfg=33 ctermbg=NONE
+hi ClapFuzzyMatches4 term=bold cterm=bold ctermfg=39 ctermbg=NONE
+hi ClapFuzzyMatches5 term=bold cterm=bold ctermfg=45 ctermbg=NONE
+hi ClapFuzzyMatches6 term=bold cterm=bold ctermfg=51 ctermbg=NONE
+hi ClapFuzzyMatches7 term=bold cterm=bold ctermfg=87 ctermbg=NONE
+hi ClapFuzzyMatches8 term=bold cterm=bold ctermfg=81 ctermbg=NONE
+hi ClapFuzzyMatches9 term=bold cterm=bold ctermfg=75 ctermbg=NONE
+hi ClapFuzzyMatches10 term=bold cterm=bold ctermfg=69 ctermbg=NONE
+hi ClapFuzzyMatches11 term=bold cterm=bold ctermfg=63 ctermbg=NONE
+hi ClapFuzzyMatches12 term=bold cterm=bold ctermfg=57 ctermbg=NONE
 hi ClapPreview term=NONE cterm=NONE ctermfg=NONE ctermbg=251 gui=NONE guifg=NONE guibg=#c6c6c6
