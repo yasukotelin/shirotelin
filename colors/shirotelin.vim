@@ -101,7 +101,13 @@ hi CursorLineNr term=bold cterm=bold ctermfg=238 gui=bold guifg=#444444
 hi MatchParen term=NONE cterm=NONE ctermbg=219 gui=NONE guibg=#ffc7fe
 hi ModeMsg term=bold cterm=bold ctermfg=237 gui=bold guifg=#303030
 hi MoreMsg term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
-hi NonText term=NONE cterm=NONE ctermfg=30 ctermbg=NONE gui=NONE guifg=#008787 guibg=NONE
+if has('nvim')
+  hi NonText term=NONE cterm=NONE ctermfg=252 ctermbg=NONE gui=NONE guifg=#D0D0D0 guibg=NONE
+  hi SpecialKey term=NONE cterm=NONE ctermfg=30 ctermbg=NONE gui=NONE guifg=#008787 guibg=NONE
+else
+  hi NonText term=NONE cterm=NONE ctermfg=30 ctermbg=NONE gui=NONE guifg=#008787 guibg=NONE
+  hi SpecialKey term=NONE cterm=NONE ctermfg=252 ctermbg=NONE gui=NONE guifg=#D0D0D0 guibg=NONE
+endif
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#FFFFFF
 hi Pmenu term=NONE cterm=NONE ctermbg=255 ctermfg=16 gui=NONE guibg=#EEEEEE
 hi PmenuSel term=bold cterm=NONE ctermfg=231 ctermbg=67 gui=NONE guifg=#FFFFFF guibg=#5f87af
@@ -110,7 +116,6 @@ hi PmenuThumb term=NONE cterm=NONE ctermbg=240 gui=NONE guibg=#585858
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
 hi Search term=NONE cterm=NONE ctermbg=227 gui=NONE guibg=#ffff80
-hi SpecialKey term=NONE cterm=NONE ctermfg=252 ctermbg=NONE gui=NONE guifg=#D0D0D0 guibg=NONE
 hi SpellBad term=underline cterm=underline ctermbg=231 gui=undercurl guibg=#FF0000
 hi SpellCap term=underline cterm=underline ctermbg=4 gui=undercurl guibg=#0000af
 hi SpellLocal term=underline cterm=underline ctermbg=127 gui=undercurl guibg=Magenta
@@ -264,11 +269,19 @@ hi link lspReference ReferenceHighlight
 
 hi link ClapSpinner StatusLine
 hi link ClapInput StatusLine
-hi link ClapSearchText Normal
+hi ClapSearchText term=NONE cterm=NONE ctermfg=231 ctermbg=NONE gui=NONE guifg=#FFFFFF guibg=NONE
 hi link ClapDisplay Pmenu
 hi link ClapQuery StatusLine
 hi link ClapCurrentSelection SelectLine
-hi link ClapMatches Identifier
+hi ClapMatches term=bold cterm=bold ctermfg=21 ctermbg=NONE
+hi ClapMatches1 term=bold cterm=bold ctermfg=21 ctermbg=NONE
+hi ClapMatches2 term=bold cterm=bold ctermfg=27 ctermbg=NONE
+hi ClapMatches3 term=bold cterm=bold ctermfg=33 ctermbg=NONE
+hi ClapMatches4 term=bold cterm=bold ctermfg=39 ctermbg=NONE
+hi ClapMatches5 term=bold cterm=bold ctermfg=45 ctermbg=NONE
+hi ClapMatches6 term=bold cterm=bold ctermfg=51 ctermbg=NONE
+hi ClapMatches7 term=bold cterm=bold ctermfg=87 ctermbg=NONE
+hi ClapMatches8 term=bold cterm=bold ctermfg=81 ctermbg=NONE
 hi ClapFuzzyMatches1 term=bold cterm=bold ctermfg=21 ctermbg=NONE
 hi ClapFuzzyMatches2 term=bold cterm=bold ctermfg=27 ctermbg=NONE
 hi ClapFuzzyMatches3 term=bold cterm=bold ctermfg=33 ctermbg=NONE
