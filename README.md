@@ -29,7 +29,7 @@ Supported CUI / GUI🔥
 ## Supported Plugins Color⛏
 
 - [✔] Markdown https://github.com/plasticboy/vim-markdown
-- [✔] NERDTree https://github.com/scrooloose/nerdtree
+- [✔] NERDTree https://github.com/preservim/nerdtree
 - [✔] NERDTree + vim-devicons https://github.com/ryanoasis/vim-devicons
 - [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
 - [✔] vim-lsp https://github.com/prabirshrestha/vim-lsp
