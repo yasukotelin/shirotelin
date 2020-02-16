@@ -1,6 +1,11 @@
 <h1 align="center">🎉 shirotelin 🎉</h1>
 
-<p align="center">shirotelin is Ultimate standard light colorscheme for Vim and Neovim!</p>
+![reviewdog](https://github.com/yasukotelin/shirotelin/workflows/reviewdog/badge.svg)
+
+shirotelin is Ultimate standard light colorscheme for Vim and Neovim!<br>
+
+- Supports Windows, macOS and Linux!
+- Supported CUI and GUI.
 
 <table>
     <tr>
@@ -16,9 +21,6 @@
         <td><img src="images/shirotelin-windows-gvim.png"></td>
     </tr>
 </table>
-
-Supports Windows, macOS and Linux!
-Supported CUI / GUI🔥
 
 ## shirotelin family!
 
