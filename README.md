@@ -24,9 +24,10 @@ shirotelin is Ultimate standard light colorscheme for Vim and Neovim!<br>
 
 ## shirotelin family!
 
-- [for Terminal.app](https://github.com/yasukotelin/shirotelin-terminal-app)
-- [for JetBrains IDE](https://github.com/yasukotelin/shirotelin-intellij)
-- [for Visual Studio Code](https://github.com/yasukotelin/shirotelin-vscode)
+- for Terminal.app ([yasukotelin/shirotelin-terminal-app](https://github.com/yasukotelin/shirotelin-terminal-app))
+- for JetBrains IDE ([yasukotelin/shirotelin-intellij](https://github.com/yasukotelin/shirotelin-intellij))
+- for Visual Studio Code ([yasukotelin/shirotelin-vscode](https://github.com/yasukotelin/shirotelin-vscode))
+- for Kakoune ([coder5506/shirotelin-kakoune](https://github.com/coder5506/shirotelin-kakoune))
 
 ## Supported Plugins Color⛏
 
