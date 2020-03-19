@@ -110,7 +110,7 @@ else
 endif
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#FFFFFF
 hi Pmenu term=NONE cterm=NONE ctermfg=16 ctermbg=255 gui=NONE guibg=#eeeeee
-hi PmenuSel term=bold cterm=NONE ctermfg=16 ctermbg=153 gui=NONE guifg=#000000 guibg=#CDE8FF
+hi PmenuSel term=bold cterm=NONE ctermfg=16 ctermbg=153 gui=NONE guifg=#000000 guibg=#AFD7FF
 hi PmenuSbar term=NONE cterm=NONE ctermfg=16 ctermbg=255 gui=NONE guibg=#eeeeee
 hi PmenuThumb term=NONE cterm=NONE ctermbg=240 gui=NONE guibg=#585858
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
