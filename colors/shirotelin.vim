@@ -109,9 +109,9 @@ else
   hi SpecialKey term=NONE cterm=NONE ctermfg=252 ctermbg=NONE gui=NONE guifg=#D0D0D0 guibg=NONE
 endif
 hi Normal term=NONE cterm=NONE ctermfg=16 ctermbg=231 gui=NONE guifg=black guibg=#FFFFFF
-hi Pmenu term=NONE cterm=NONE ctermbg=229 ctermfg=16 gui=NONE guibg=#ffffaf guifg=#000000
+hi Pmenu term=NONE cterm=NONE ctermfg=16 ctermbg=255 gui=NONE guibg=#eeeeee
 hi PmenuSel term=bold cterm=NONE ctermfg=16 ctermbg=153 gui=NONE guifg=#000000 guibg=#CDE8FF
-hi PmenuSbar term=NONE cterm=NONE ctermbg=229 ctermfg=16 gui=NONE guibg=#ffffaf guifg=#000000
+hi PmenuSbar term=NONE cterm=NONE ctermfg=16 ctermbg=255 gui=NONE guibg=#eeeeee
 hi PmenuThumb term=NONE cterm=NONE ctermbg=240 gui=NONE guibg=#585858
 hi Question term=bold cterm=bold ctermfg=28 gui=bold guifg=SeaGreen
 hi link QuickFixLine Search
@@ -144,7 +144,7 @@ hi ReferenceHighlight cterm=NONE term=NONE ctermfg=NONE ctermbg=189 guifg=NONE g
 
 hi SelectLine term=NONE cterm=NONE ctermbg=227 ctermfg=16 gui=NONE guibg=#ffff80 guifg=#000000
 
-hi FloatWindow term=NONE cterm=NONE ctermfg=16 ctermbg=255 gui=NONE guibg=#eeeeee
+hi FloatWindow term=NONE cterm=NONE ctermfg=16 ctermbg=229 gui=NONE guibg=#ffffaf
 
 """"""""""""""""""""""
 " NERDTree
@@ -159,7 +159,7 @@ hi NERDTreeFlags term=NONE cterm=NONE ctermfg=221 gui=NONE guifg=#FFD75F
 " HTML
 """"""""""""""""""""""
 
-hi htmlArg term=bold cterm=bold ctermfg=96 gui=bold guifg=#875f87
+hi htmlArg term=NONE cterm=NONE ctermfg=16 gui=bold guifg=#000000
 
 """"""""""""""""""""""
 " Markdown
