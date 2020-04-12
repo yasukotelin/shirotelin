@@ -6,10 +6,6 @@
 
 ![reviewdog](https://github.com/yasukotelin/shirotelin/workflows/reviewdog/badge.svg)
 
----
-
-<br>
-
 - Supports Windows, macOS and Linux!
 - Supported CUI and GUI.
 
