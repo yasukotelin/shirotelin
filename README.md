@@ -35,6 +35,7 @@
 ## Supported Plugins Color⛏
 
 - [✔] Markdown https://github.com/plasticboy/vim-markdown
+- [✔] lightline.vim https://github.com/itchyny/lightline.vim
 - [✔] NERDTree https://github.com/preservim/nerdtree
 - [✔] NERDTree + vim-devicons https://github.com/ryanoasis/vim-devicons
 - [✔] dart-vim-plugin https://github.com/dart-lang/dart-vim-plugin
@@ -125,6 +126,20 @@ I add colors for plugins actively.
 https://github.com/plasticboy/vim-markdown
 
 <img src="./images/shirotelin-markdown.png" alt="shirotelin for Markdown">
+
+### lightline.vim
+
+https://github.com/itchyny/lightline.vim
+
+If you use lightline.vim, you can write the below code in your .vimrc and use shirotelin colorscheme on lightline!
+
+```vim
+let g:lightline = {
+      \ 'colorscheme': 'shirotelin',
+      \ }
+```
+
+<img src="./images/lightline.png" alt="shirotelin for lightline.vim">
 
 ### NERDTree
 
