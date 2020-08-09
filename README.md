@@ -71,12 +71,6 @@ Finally, Write to your `.vimrc` or `init.vim`.
 colorscheme shirotelin
 ```
 
-If you don't like bold text, you can use `shirotelin-thin`. It don't use bold.
-
-```vimrc
-colorscheme shirotelin-thin
-```
-
 ## Settings
 
 If you want to show the Tab, white space, and EOL, you write a like below to `.vimrc` or `init.vim`.
