@@ -31,6 +31,7 @@
 - for Visual Studio Code ([yasukotelin/shirotelin-vscode](https://github.com/yasukotelin/shirotelin-vscode))
 - for Kakoune ([esessoms/shirotelin-kakoune](https://github.com/esessoms/shirotelin-kakoune))
 - for Emacs ([esessoms/shirotelin-theme](https://github.com/esessoms/shirotelin-theme))
+- for iTerm2 ([tatsuya4559/shirotelin-iterm2](https://github.com/tatsuya4559/shirotelin-iterm2))
 
 ## Supported Plugins Color⛏
 
